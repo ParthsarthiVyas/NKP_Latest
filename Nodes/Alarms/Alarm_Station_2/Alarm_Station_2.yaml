@@ -1,0 +1,648 @@
+Name: Alarm_Station_2
+Id: g=35ee14c84aca0c0b69d775502e4f16d8
+Type: FolderType
+Children:
+- Name: Emergency_Stop
+  Id: g=30d7535e75a108ba9e61c572ecb77994
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=84477d44ac9367eea1e27a7da21f225f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=83e17c87cffd5eb6d92a2abb1dca45d9
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=59ee5591f540f07919791e92d40799eb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Emergency_Stop_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=d13f35eeb7a6d5a4001cb2f97e9d038b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a1ac5f25a98730642ede593ef9796762
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=93f71bef843cbdc5a30c90e743fa866f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Emergency Stop At Station-2"}
+- Name: Minimum_Accumulation_At_Infeed_Conveyor
+  Id: g=641aa7b57c9eb77d8620f0772f070692
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5995b8fb9df45bb2f5bddb7eb424e167
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=1f2a5c91cebc8a7a5154d338cd5a0efb
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=eb2bbac8821f55fec3fd4a411706abbe
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Minimum_Accumulation_At_Infeed_Conveyor_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=db52c6e1e162599d3bec8099a9ed0424
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=815b2fba14507367ff9c797fe0c94a35
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=a41a9fa52238075449aee4a364683d90
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Minimum Accumulation At Infeed Conveyor Station-2"}
+- Name: Foot_Switch_Operated
+  Id: g=21ceebe99625ac45db8aff9b79ca5954
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a0a4229aac487ebe2785170682e03d0a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=aeb70aea77a5d0c16625b951e60d4175
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=67c1e97f722d919ee593d8c2a258e3b1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Foot_Switch_Operated_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=d8ff06c864ea614cba4648c0a757ca86
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=852cc7a1c9a0fec088b123c4e6898a69
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=1a1959be9435932e160054fe802589be
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Foot Switch Operated At Station-2"}
+- Name: ' Door_Open'
+  Id: g=8a6c7403581e4fe355976eee16ceeded
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=01279da440b6cbfc9792e68f2a89ec52
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=23df7d61248e57beb12d5e45af557ac7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=3005ad43543cd63835bfba5305abd80d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/ Door_Open_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=ec2aac7983ddd1fd4a72741093874df2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=52977609efd851b13c381a6e9ae7909e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=2856473193c47bed04df10677952c873
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":" Door Open At Station-2"}
+- Name: No_Tray_At_Station_1
+  Id: g=b4d21c370c30957e6b79248a0520b98e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8f59e518e5f7e2ba412ea0cdf2c2b324
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=d4b41aafa0280056abba5ef9186d460a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=75dbc3e7e3bf5a277faf20e65c112d9a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/No_Tray_At_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=9d9711132995199b71c179bc0dc723b0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=58242d3146f0070043844528ff764b42
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=df41643779e6048866ee65c5bbff8675
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"No Tray At Station-2"}
+- Name: Main_Drive_Faulted
+  Id: g=3773abd4ae090de3a6100233198b770d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=30b9917ce12b0408500a32423844284a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=059ceab0845f3462188610fded493ad4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8599b63cfd18322ed7bb34c30d75c53e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Main_Drive_Faulted_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=76147e5ab4eab75fc98768df673ea145
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=fd6c53577760e84caa2bf008371b16db
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=294be961ec91fb3ff6d85fb43c22c4c7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Main Drive Faulted At Station-2"}
+- Name: Conveyor_Drive_Faulted
+  Id: g=7cfb40fabc29e10bbe57dcb0b8c0e327
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=257628c854ff7838d6ddc3c62d19e47d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=286c475ac1168726ca7f07c23b1856f5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=7773c5710e5eed949e196e9b130a040c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Conveyor_Drive_Faulted_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=9ffa862bd5034ccc6c0dda5167e2c0d0
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=94ba367fd9451ea3664d3945d5e6cecf
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=6a64e8856d4d8cad4c71f0be9ed02511
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Conveyor Drive Faulted At Station-2"}
+- Name: Spinning_1_Drive_Faulted
+  Id: g=7f112a9be6bd380fa83cd0ac83936879
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=622121c99c95dd35c1c28d8e4b8db373
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=407b2ed928b70401452bd06312df1201
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a7208413fdd1e8fa210154d51d8270c8
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Spinning_1_Drive_Faulted_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=d5919799edb75ff542dac7983a512810
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=b36eb8c380e4bb6d9500bc214388feb3
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=c118a07788c0af7faf13d84926d4ed56
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Spinning-1 Drive Faulted At Station-2"}
+- Name: Spinning_2_Drive_Faulted
+  Id: g=0b6112397c45b84568b8995838142625
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9449eba4d689b4d3bdc85affae17c8f0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=069f6069d0fc5b24deb8a3d8552bea9e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=b3ad68b670a574377d7f0b0b33b51070
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Spinning_2_Drive_Faulted_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=9d6659d356d98c13d032c3fd4f12a820
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c1790889acf56521f3528140846a4c0b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=df831aabfe904a15c511dba597fe0325
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Spinning-2 Drive Faulted At Station-2"}
+- Name: Maximum_Vial_Rejected
+  Id: g=75cb20e4045859bb9cfaaaee244b57a0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=5c33a7f6526b0d8c50c8c690d4122730
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=11f1d5ae70b28d913959be7681b98f0d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d2cf17b1a3c1e12f4c2262e0c5348549
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Maximum_Vial_Rejected_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=ffa6d329ca1fa11c8efc9294075a3394
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ae89ee692e58e65adce130a223694bc5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e697e2b436494db0810c13688661abdc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Maximum Vial Rejected At Station-2"}
+- Name: Vacuum_Pump_Trip
+  Id: g=399b3fd068ca2ddffefafcb92b59961c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8267f308519f4a69a1c33644e3b1ec26
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=a275b986acedb16411f6040f6215c637
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=2f406d9bd39bd5813f6cc43370dde760
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Vacuum_Pump_Trip_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=057003737da8935631df5bbb3e968738
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=af466ce4532ec9db793bd3d50fbccfd5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=52698acfea3224190d74e02f399f7dc9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Vacuum Pump Trip At Station-"}
+- Name: Vacuum_Pressure_Low
+  Id: g=144091abe6e8983627ecd47c7de2bd17
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1869924e44021d17c1f940ca1006ddbf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=dd7b3392d1bb37e4df7419f2402af4cf
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=b6b6711ee7de0b31d949fe96d234f1e0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Vacuum_Pressure_Low_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=1cd164f88e36a1fdc7a96f38c2ece5ee
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3e71191d7a1aa925d2f1d419dcca50aa
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=d7a9b4a809b2126a6bb0e22bc5ea9f04
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Vacuum Pressure Low At Station-2"}
+- Name: Rejection_Track_Full
+  Id: g=f143e1d55320eb135897a26f6e437824
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=281167dcd9152fe39c05bdba3c468dd8
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=3511b65893e220e8a8b3bc28dd72c12e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=bc28de478c1e05bc3086d1eca2033685
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Rejection_Track_Full_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=af4da59060350460668a4c4d180935b2
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=ccaaa2425800c243e117e2c3fb037742
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=71046536d4c3e9a66bc33f43a91582fd
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Rejection Track Full At Station-2"}
+- Name: Rejected_Vial_Not_Confirmed_At_Rejection_Station_1
+  Id: g=658b393b2334795d2467e686112a56e9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=27912374096f6e0103620b83f9f7ac44
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=c92f0987c5a58d846773ba3a17252fc0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a477e5d171c350039bfadb262b39ea39
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Rejected_Vial_Not_Confirmed_At_Rejection_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=c1e6c25e834cae44c73847ac9b1b8faa
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=fe4a272e4e50a7c029052cae8b839113
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=3f809e5be201c69af21485f9fc802a38
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Rejected Vial Not Confirmed At Rejection Station-2"}

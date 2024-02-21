@@ -1,0 +1,8 @@
+Name: Station_2
+Type: FolderType
+Children:
+- File: TimerSetting/TimerSetting.yaml
+- File: FactorySetting/FactorySetting.yaml
+- File: PressureSetup/PressureSetup.yaml
+- File: VialRejection/VialRejection.yaml
+- File: SystemSetting/SystemSetting.yaml

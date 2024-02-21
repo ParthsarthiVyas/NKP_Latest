@@ -1,0 +1,48 @@
+Name: Calibration
+Type: FolderType
+Children:
+- Name: S1_VP_Min
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:20"
+- Name: S1_VP_PV
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:22"
+- Name: S1_VP_Max
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:21"
+- Name: S1_MM_Min
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:35"
+- Name: S1_MM_Hz
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:37"

@@ -1,0 +1,10 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: mm_dd_yyyy_clock1
+  Type: NetLogic
+  Children:
+  - Name: datetime
+    Type: BaseDataVariableType
+    DataType: DateString
+    Value: "Jan 1, 1601, 12:00:00 AM"

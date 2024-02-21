@@ -1,0 +1,19 @@
+Name: Manual_Mode
+Type: FolderType
+Children:
+- File: Station1/Station1.yaml
+- File: Station2/Station2.yaml
+- Name: Manualmodeselect
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Manual_Mode/Manualmodeselect"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

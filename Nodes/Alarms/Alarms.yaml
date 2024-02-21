@@ -1,0 +1,52 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- File: Alarm_Station_1/Alarm_Station_1.yaml
+- File: Alarm_Station_2/Alarm_Station_2.yaml
+- Name: Watchdog_Fault_Between_Station_1_&_Station_2
+  Id: g=461b20e9e87bcd6fda13cd7c535c4d40
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f32dec27d046bedce8c1492a59a3c32f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=97b74a77fa637f75e88ea09173f6ca1c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=89fa7023a446da921cd32705f750b2c7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms/Watchdog_Fault_Between_Station_1_&&_Station_2"
+      Children:
+      - Name: Mode
+        Id: g=42a5e8c6ed3a0673fff86d309b5f2087
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=82003d91731d9fc1eb7e945aaf951863
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=11ea7f6d663e1fa04e5135fd0c119d3e
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Watchdog Fault Between Station-1 & Station-2"}

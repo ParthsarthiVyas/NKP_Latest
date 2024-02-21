@@ -1,0 +1,179 @@
+Name: VialRejection
+Type: FolderType
+Children:
+- Name: Rejection_Step
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Rejection_Step"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+  - Name: ns=0;EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 999.0
+- Name: Rejection_Track_Full_Limit
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Rejection_Track_Full_Limit"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+  - Name: ns=0;EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 999.0
+- Name: 'Rejection Selection - 1'
+  Id: g=a8fadc88e311c736d1143c5e21c33216
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Rejection Selection - 1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'Rejection Selection - 2'
+  Id: g=321211af443a3acd5cf14f85655d46dc
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Rejection Selection - 2"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'Rejection Selection - 3'
+  Id: g=e967c3cb7c69ccfa4061db98d3eb4262
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Rejection Selection - 3"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'Rejection Selection - 4'
+  Id: g=5e9b9d128705f43f3e7c53c30903371a
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Rejection Selection - 4"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'Disc Sensor-1'
+  Id: g=c79f42d14aacfea10c28a3e098f30965
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Disc Sensor-1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'Disc Sensor-2'
+  Id: g=6e37e8b460a8b6efa412bca69df63722
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Disc Sensor-2"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'Disc Sensor-3'
+  Id: g=ce8c75447764c90e4a7affff5710f383
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Disc Sensor-3"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: 'Disc Sensor-4'
+  Id: g=0f8d989b5ee39d6d633bdda9e6a10158
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/DataSetup/Station_1/VialRejection/Disc Sensor-4"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

@@ -1,0 +1,168 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema
+  Id: g=80efc9a9c4db930aa764783fc0d507bb
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Recipe_Name_T1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Main_machine_Speed_T1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Conveyor_Speed_T1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Spinning_motor_1_speed_T1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Spinning_motor_2_speed_t1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Rejection_Step_T1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Recipe_Name_T2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Main_machine_Speed_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Conveyor_Speed_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Spinning_motor_1_speed_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Spinning_motor_2_speed_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Rejection_Step_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Class: Reference
+    Target: ns=25;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NKP_Latest/DataStores/Recipe_DB"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TableName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Recipe"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NKP_Latest/Model/Recipe/Recipe_tags"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=030e1f195f45a8cdeb5cfe7c0f761a7a
+    Type: BaseObjectType
+    Children:
+    - Name: Recipe_Name_T1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Main_machine_Speed_T1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Conveyor_Speed_T1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Spinning_motor_1_speed_T1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Spinning_motor_2_speed_t1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Rejection_Step_T1
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Recipe_Name_T2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Main_machine_Speed_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Conveyor_Speed_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Spinning_motor_1_speed_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Spinning_motor_2_speed_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Rejection_Step_T2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0

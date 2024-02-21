@@ -1,0 +1,5 @@
+Name: CommDrivers
+Type: CommDriversCategoryFolder
+Children:
+- File: Station_1_PLC/Station_1_PLC.yaml
+- File: Station_2_PLC/Station_2_PLC.yaml

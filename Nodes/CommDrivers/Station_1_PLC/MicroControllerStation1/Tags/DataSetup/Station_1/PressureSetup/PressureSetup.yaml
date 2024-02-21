@@ -1,0 +1,25 @@
+Name: PressureSetup
+Type: FolderType
+Children:
+- Name: MicroControllerTag1
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:23"
+- Name: MicroControllerTag2
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:28"
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+    Value: 0

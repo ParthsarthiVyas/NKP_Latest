@@ -1,0 +1,13 @@
+Name: Manual_Mode
+Type: FolderType
+Children:
+- File: Station1/Station1.yaml
+- Name: Manualmodeselect
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:4/4"

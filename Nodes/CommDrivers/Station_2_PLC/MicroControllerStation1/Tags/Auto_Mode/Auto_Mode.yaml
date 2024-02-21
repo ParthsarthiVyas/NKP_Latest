@@ -1,0 +1,4 @@
+Name: Auto_Mode
+Type: FolderType
+Children:
+- File: Station_2/Station_2.yaml

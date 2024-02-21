@@ -1,0 +1,30 @@
+Name: TimerSetting
+Type: FolderType
+Children:
+- Name: Minimum_Vial_at_Infeed_Conveyor_On_Delay
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:11"
+- Name: Minimum_Vial_at_Infeed_Conveyor_Off_Delay
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:10"
+- Name: No_Tray_Machine_Stop_Delay
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:12"

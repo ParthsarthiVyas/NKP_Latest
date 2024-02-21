@@ -1,0 +1,21 @@
+Name: FactorySetting
+Type: FolderType
+Children:
+- Name: MicroControllerTag1
+  Type: MicroControllerTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "N7:36"
+- Name: Load
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:8/10"

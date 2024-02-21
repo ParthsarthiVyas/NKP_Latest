@@ -1,0 +1,23 @@
+Name: TagImporter
+Type: MicroControllerTagImporter
+OwnerId: ns=2;g=61d9521b3366928be3eec501db0db80e
+Children:
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: ""
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 0
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []

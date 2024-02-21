@@ -1,0 +1,21 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: Auto_Mode/Auto_Mode.yaml
+- File: Manual_Mode/Manual_Mode.yaml
+- File: Calibration/Calibration.yaml
+- File: I_O_Screen/I_O_Screen.yaml
+- File: DataSetup/DataSetup.yaml
+- File: Retain_Variable/Retain_Variable.yaml
+- File: BatchData_Station_1/BatchData_Station_1.yaml
+- File: BatchData_Station_2/BatchData_Station_2.yaml
+- Name: AutoLogOutTrigger
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Screen_No
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- File: Recipe/Recipe.yaml
+- File: Alarms/Alarms.yaml

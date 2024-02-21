@@ -1,0 +1,78 @@
+Name: SystemSetting
+Type: FolderType
+Children:
+- Name: RejectionSystem
+  Id: g=becb311cdb82eb735cd4bcb4f081a6e7
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/RejectionSystem"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: NoVialAtInfeed
+  Id: g=5c09821958ad0819de57fbc3494d034f
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/NoVialAtInfeed"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: NoTrayMachineShop
+  Id: g=c237e8e6c2f8d95c37c0391b19472eb8
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/NoTrayMachineShop"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: DoorSensor
+  Id: g=042f30037c88885938d1d3a067f52b86
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/DoorSensor"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: FootSwtich
+  Id: g=1b95733817d54d9a1138930a6a301b97
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/FootSwtich"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

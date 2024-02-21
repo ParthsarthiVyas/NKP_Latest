@@ -1,0 +1,4 @@
+Name: Manual_Mode
+Type: FolderType
+Children:
+- File: Station2/Station2.yaml

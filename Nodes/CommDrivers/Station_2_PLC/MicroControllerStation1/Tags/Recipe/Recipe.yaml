@@ -1,0 +1,57 @@
+Name: Recipe
+Type: FolderType
+Children:
+- Name: Recipe_Name_T2
+  Type: MicroControllerTag
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ST27:7"
+- Name: Main_machine_Speed_T2
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F13:2"
+- Name: Conveyor_Speed_T2
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F23:2"
+- Name: Spinning_motor_1_speed_T2
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F24:2"
+- Name: Spinning_motor_2_speed_T2
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F25:2"
+- Name: Rejection_Step_T2
+  Type: MicroControllerTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "N7:38"

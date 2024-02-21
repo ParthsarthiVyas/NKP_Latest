@@ -1,0 +1,10 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Auto_Mode/Auto_Mode.yaml
+- File: Manual_Mode/Manual_Mode.yaml
+- File: Calibration/Calibration.yaml
+- File: I_O_Screen/I_O_Screen.yaml
+- File: Alarm/Alarm.yaml
+- File: Recipe/Recipe.yaml
+- File: DataSetup/DataSetup.yaml

@@ -1,0 +1,19 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Auto_Mode/Auto_Mode.yaml
+- File: Manual_Mode/Manual_Mode.yaml
+- File: Calibration/Calibration.yaml
+- File: I_O_Screen/I_O_Screen.yaml
+- File: DataSetup/DataSetup.yaml
+- File: Recipe/Recipe.yaml
+- File: Alarms/Alarms.yaml
+- Name: RecipeName
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01_GS_Candy_Wrapper.RAPID_EI.Sts.RecipeName"

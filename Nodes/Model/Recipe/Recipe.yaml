@@ -1,0 +1,187 @@
+Name: Recipe
+Type: FolderType
+Children:
+- Name: Recipe_tags
+  Id: g=85212a1e6690193696262c02e83647bb
+  Type: BaseObjectType
+  Children:
+  - Name: Track1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Track-1 Recipe"
+  - Name: Recipe_Name_T1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Recipe_Name_T1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Main_machine_Speed_T1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Main_machine_Speed_T1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Conveyor_Speed_T1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Conveyor_Speed_T1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Spinning_motor_1_speed_T1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Spinning_motor_1_speed_T1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Spinning_motor_2_speed_t1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Spinning_motor_2_speed_T1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Rejection_Step_T1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Rejection_Step_T1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Track2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Track-2 Recipe"
+  - Name: Recipe_Name_T2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Recipe_Name_T2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Main_machine_Speed_T2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Main_machine_Speed_T2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Conveyor_Speed_T2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Conveyor_Speed_T2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Spinning_motor_1_speed_T2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Spinning_motor_1_speed_T2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Spinning_motor_2_speed_T2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Spinning_motor_2_speed_T2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Rejection_Step_T2
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Rejection_Step_T2"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: Recipe_import_export_part
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

@@ -1,0 +1,77 @@
+Name: BatchData_Station_2
+Type: FolderType
+Children:
+- Name: BatchRunning
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: BatchNumber
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: ProductName
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: BatchStartTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: BatchStopTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: TotalCounts
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchTotal_Count"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: RejectCounts
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchReject_Count"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: GoodCounts
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchGood_Count"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: %rejection
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- File: ReportData/ReportData.yaml
+- Name: BatchNumberChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../BatchNumber"
