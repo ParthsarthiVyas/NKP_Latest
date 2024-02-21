@@ -25,8 +25,8 @@ Children:
 - Name: BatchStopTime
   Id: g=392aee670c9a04679bad1bd83bdf3c04
   Type: BaseDataVariableType
-  DataType: DateTime
-  Value: "1601-01-01T00:00:00.0000000"
+  DataType: DateString
+  Value: "Jan 1, 1601, 12:00:00 AM"
 - Name: TotalCounts
   Id: g=1afbc12199c07b9d719313c4b0ce4611
   Type: BaseDataVariableType
@@ -81,9 +81,53 @@ Children:
 - Name: %rejection
   Id: g=f7a76809e58d5b33f51d0f8a33cda17b
   Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: CompanyName
+  Id: g=51cc542efab31265c2dd4b2dffe13923
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: EquipmentName
+  Id: g=339cb690cf4b9877180bbc5406027b2d
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Equipmentid
+  Id: g=3e2c55c2663ed992fd9ad923e229ff38
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Vial_Height
+  Id: g=ba71d81a1d93b246b4b8bf7256569501
+  Type: BaseDataVariableType
   DataType: Int32
   Value: 0
-- File: ReportData/ReportData.yaml
+- Name: Batch_size
+  Id: g=64fa6bc77391b7b3e54e4fdc6516aa58
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Product_size
+  Id: g=cf639e28d8a0cc0c513b05dd93bcb087
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Operatorname
+  Id: g=228bd347cdc3a298bfec9e4281f1b83b
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Recipename
+  Id: g=f73b88b55ff0bcf9e5a9da842514a0d2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Batch_Start_Stop
+  Id: g=7fdb7e882ec68618ea149fbb46550331
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
 - Name: BatchNumberChanged
   Id: g=f4af47ab9f8a16071e2dc8c53ae4b336
   Type: VariableChangedEventDispatcher

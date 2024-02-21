@@ -29,14 +29,6 @@ Project:
    Uri: 'urn:FTOptix:UI:Net'
    Module: FTOptix.UI.Net
    Version: 11.0
-  7:
-   Uri: 'urn:FTOptix:DataLogger'
-   Module: FTOptix.DataLogger
-   Version: 1.0
-  8:
-   Uri: 'urn:FTOptix:DataLogger:Net'
-   Module: FTOptix.DataLogger.Net
-   Version: 1.0
   9:
    Uri: 'urn:FTOptix:EventLogger'
    Module: FTOptix.EventLogger
@@ -162,15 +154,15 @@ Project:
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
  Statistics:
-  TotalNodeCount: 33540
-  Objects: 4549
-  ObjectTypes: 145
-  Variables: 28806
+  TotalNodeCount: 33841
+  Objects: 4583
+  ObjectTypes: 147
+  Variables: 29073
   VariableTypes: 0
   DataTypes: 0
-  Methods: 40
-  References: 323
+  Methods: 38
+  References: 284
   ReferenceTypes: 0
-  Files: 136
+  Files: 134
  Nodes:
  - File: Nodes/NKP_Latest.yaml

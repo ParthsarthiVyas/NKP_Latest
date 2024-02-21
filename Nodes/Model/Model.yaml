@@ -9,6 +9,8 @@ Children:
 - File: Retain_Variable/Retain_Variable.yaml
 - File: BatchData_Station_1/BatchData_Station_1.yaml
 - File: BatchData_Station_2/BatchData_Station_2.yaml
+- File: Recipe/Recipe.yaml
+- File: Alarms/Alarms.yaml
 - Name: AutoLogOutTrigger
   Type: BaseDataVariableType
   DataType: Int32
@@ -17,5 +19,3 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
-- File: Recipe/Recipe.yaml
-- File: Alarms/Alarms.yaml
