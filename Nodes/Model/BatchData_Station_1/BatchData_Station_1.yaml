@@ -37,7 +37,7 @@ Children:
     Id: g=32411c0b918d223cf19b773357eb3413
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchTotal_Count"
+    Value: "../../Auto_Mode/Station_1/Total_Count"
     Children:
     - Name: Mode
       Id: g=ffd0d2ea796420b0c72bd4e9b44a2faa
@@ -49,35 +49,11 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
-  Children:
-  - Name: DynamicLink
-    Id: g=3c096c56622255341fa3dfbbee7f3e25
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchReject_Count"
-    Children:
-    - Name: Mode
-      Id: g=bf089fa793b98d949e412f6ca0918ce4
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
 - Name: GoodCounts
   Id: g=c8a074effff5daae211871ea68b45e54
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
-  Children:
-  - Name: DynamicLink
-    Id: g=ed113dc817be95f8d030e655b4a4032c
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchGood_Count"
-    Children:
-    - Name: Mode
-      Id: g=7fbcbeaf12f9706c3f9c9cd5e376da15
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
 - Name: %rejection
   Id: g=f7a76809e58d5b33f51d0f8a33cda17b
   Type: BaseDataVariableType

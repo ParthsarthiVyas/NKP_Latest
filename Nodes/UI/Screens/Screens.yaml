@@ -7,10 +7,10 @@ Children:
 - File: ManualMode/ManualMode.yaml
 - File: Alarms_History/Alarms_History.yaml
 - File: Calibration/Calibration.yaml
-- File: Recipe/Recipe.yaml
 - File: I_O_Screen_Station_1/I_O_Screen_Station_1.yaml
 - File: I_O_Screen_Station_2/I_O_Screen_Station_2.yaml
 - File: Data_Setup/Data_Setup.yaml
+- File: Recipe/Recipe.yaml
 - File: AuditSigningWorkflows/AuditSigningWorkflows.yaml
 - File: Popup_Screens/Popup_Screens.yaml
 - File: Batch/Batch.yaml

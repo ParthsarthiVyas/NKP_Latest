@@ -17,3 +17,30 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:UN01_GS_Candy_Wrapper.RAPID_EI.Sts.RecipeName"
+- Name: Event_log_on_off
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: Set_parameter
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: Batch_summary
+  Type: MicroControllerTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""

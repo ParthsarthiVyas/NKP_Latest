@@ -473,14 +473,28 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 1.0
-- Name: Popup1
+- Name: Alarmpopup
   Id: g=517f57df7a97412c3cf5f41d1f4bfaef
-  Supertype: Popup
+  Supertype: Dialog
   ReferenceType: HasComponent
   Children:
   - Class: Reference
     Target: ns=5;i=621
     Direction: Forward
+  - Name: Visible
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LeftMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 100.0
+  - Name: TopMargin
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 100.0
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -1038,6 +1052,11 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../Columns/Timestamp@NodeId"
+    - Name: AllowDeselection
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
   - Name: AcknowledgeAllButton
     Type: Button
     Children:
