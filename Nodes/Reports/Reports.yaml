@@ -4230,6 +4230,9 @@ Children:
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Class: Reference
+        Target: ns=5;i=504
+        Direction: Forward
   - Name: Footer
     Type: Panel
     Children:

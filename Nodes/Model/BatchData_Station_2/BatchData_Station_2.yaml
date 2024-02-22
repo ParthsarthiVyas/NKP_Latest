@@ -32,7 +32,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchTotal_Count"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/L19&:0               TOTALVIAL"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -46,7 +46,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchReject_Count"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/L19&:1               TOTALREJECTEDVIAL"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -60,7 +60,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/AB_DRIVER/AB_PLC/Tags/Controller Tags/HMI_BatchGood_Count"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/L19&:2                     TOTALGOODVIAL"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -70,6 +70,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/F8&:13                     %OFREJECTION"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: CompanyName
   Type: BaseDataVariableType
   DataType: String

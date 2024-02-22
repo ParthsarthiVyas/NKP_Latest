@@ -523,6 +523,9 @@ Children:
             DataType: NodePath
             ModellingRule: Optional
             Value: "{Item}/Name"
+          - Class: Reference
+            Target: ns=5;i=480
+            Direction: Forward
         - Name: ResultMessageLabel
           Type: Label
           Children:

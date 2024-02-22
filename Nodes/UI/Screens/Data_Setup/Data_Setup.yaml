@@ -15757,6 +15757,7 @@ Children:
       AccessLevel: Read
     - Class: Reference
       Target: ns=5;i=480
+      Direction: Forward
     - Name: Width
       Type: BaseVariableType
       DataType: Size

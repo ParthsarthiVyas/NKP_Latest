@@ -154,15 +154,15 @@ Project:
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
  Statistics:
-  TotalNodeCount: 34082
-  Objects: 4616
+  TotalNodeCount: 36251
+  Objects: 5002
   ObjectTypes: 147
-  Variables: 29281
+  Variables: 31064
   VariableTypes: 0
   DataTypes: 0
   Methods: 38
-  References: 284
+  References: 286
   ReferenceTypes: 0
-  Files: 134
+  Files: 139
  Nodes:
  - File: Nodes/NKP_Latest.yaml
