@@ -19,3 +19,18 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- File: PrintTags/PrintTags.yaml
+- Name: Progressive Number
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/L19&:20     PROGRESSIVENUMBER"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

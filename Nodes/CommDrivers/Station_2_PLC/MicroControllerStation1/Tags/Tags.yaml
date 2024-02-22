@@ -8,3 +8,4 @@ Children:
 - File: Alarm/Alarm.yaml
 - File: Recipe/Recipe.yaml
 - File: DataSetup/DataSetup.yaml
+- File: PrintTags/PrintTags.yaml

@@ -1,61 +1,43 @@
-Name: Station_1
+Name: PrintTags
 Type: FolderType
 Children:
-- Name: Start_button
+- Name: 'L19:0               TOTALVIAL'
   Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "B3:8/1"
-- Name: Start_button_indication
-  Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "B3:8/1"
-- Name: Stop_button_indication
-  Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "B3:8/2"
-- Name: Stop_button
-  Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "B3:8/2"
-- Name: Start_Stop_Indication
-  Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "B3:8/0"
-- Name: Total_Count
-  Type: MicroControllerTag
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
     Value: "L19:0"
-- Name: Vial_Minute
+- Name: 'L19:1               TOTALREJECTEDVIAL'
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "L19:1"
+- Name: 'L19:2                     TOTALGOODVIAL'
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "L19:2"
+- Name: 'F8:13                     %OFREJECTION'
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:13"
+- Name: 'N7:81                   ACTUAL M_C WORKING HOUR'
   Type: MicroControllerTag
   DataType: Int32
   Value: 0
@@ -63,103 +45,139 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "N7:83"
-- Name: Main_Motor_Speed
+    Value: "N7:81"
+- Name: 'N7:80                   ACTUAL M_C WORKING MINUTE'
   Type: MicroControllerTag
-  DataType: Float
-  Value: 0.0
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "F13:2"
-- Name: Conveyor_Motor_Speed
+    Value: "N7:80"
+- Name: 'N7:82                   ACTUAL M_C WORKING SECOND'
   Type: MicroControllerTag
-  DataType: Float
-  Value: 0.0
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "F23:2"
-- Name: Spinning_Motor_1_Speed
+    Value: "N7:82"
+- Name: 'B3:12_0'
   Type: MicroControllerTag
-  DataType: Float
-  Value: 0.0
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "F24:2"
-- Name: Spinning_Motor_2_Speed
+    Value: "B3:12/0"
+- Name: 'B3:12_1'
   Type: MicroControllerTag
-  DataType: Float
-  Value: 0.0
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "F25:2"
-  - Name: ArrayUpdateMode
-    Type: BaseDataVariableType
-    DataType: TagArrayUpdateMode
-    Value: 0
-- Name: |-
-      Spinning_Motor_2_Inspection
-      Speed
+    Value: ""
+- Name: 'B3:12_2'
   Type: MicroControllerTag
-  DataType: Float
-  Value: 0.0
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "F25:0"
-- Name: Main_motor_status
+    Value: "B3:12/2"
+- Name: 'B3:12_3'
   Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "B3:2/4"
-- Name: Conveyor_motor_status
+    Value: "B3:12/3"
+- Name: 'B3:12_4'
   Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "B3:2/5"
-- Name: Spinning_Motor_1_status
+    Value: "B3:12/4"
+- Name: 'B3:12_5'
   Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "B3:2/6"
-- Name: Spinning_Motor_2_status
+    Value: "B3:12/5"
+- Name: 'B3:12_6'
   Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "B3:2/7"
-- Name: |+
-      Spinning_Motor_2_Inspection
-      Speed_Status 
+    Value: "B3:12/6"
+- Name: 'B3:12_7'
   Type: MicroControllerTag
-  DataType: Boolean
-  Value: false
+  DataType: Int32
+  Value: 0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: "B3:2/7"
-- File: Rejection_steps/Rejection_steps.yaml
+    Value: "B3:12/7"
+- Name: 'B3:12_8'
+  Type: MicroControllerTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:12/8"
+- Name: 'B3:11_1'
+  Type: MicroControllerTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:11/1"
+- Name: 'B3:12_14'
+  Type: MicroControllerTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:12/14"
+- Name: 'B3:29_1'
+  Type: MicroControllerTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:29/1"
+- Name: 'B3:19_1'
+  Type: MicroControllerTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:19/1"

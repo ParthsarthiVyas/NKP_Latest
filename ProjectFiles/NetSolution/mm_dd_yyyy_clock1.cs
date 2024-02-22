@@ -44,6 +44,7 @@ public class mm_dd_yyyy_clock1 : BaseNetLogic
         int DayVar = DateTime.Now.Day;
         int Dayhour = DateTime.Now.Hour;
         int Dayminute = DateTime.Now.Minute;
+        int Daysecond = DateTime.Now.Second;
         DateTime datetime1 = DateTime.Now;
 
         // Format date as "dd/MM/yyyy"
@@ -57,8 +58,15 @@ public class mm_dd_yyyy_clock1 : BaseNetLogic
         // string formattedLocalTime = datetime1.ToString("HH:mm:ss");
         string formattedLocalTime = DateTime.Now.ToString("HH:mm:ss");
           LogicObject.GetVariable("datetime").Value = formattedLocalDate + " " + formattedLocalTime;
-     
-     
+          LogicObject.GetVariable("date").Value = formattedLocalDate;
+          LogicObject.GetVariable("time").Value = formattedLocalTime;
+          LogicObject.GetVariable("day").Value = DayVar;
+          LogicObject.GetVariable("month").Value = MonthVar;
+          LogicObject.GetVariable("year").Value = YearVar;
+          LogicObject.GetVariable("hour").Value = Dayhour;
+          LogicObject.GetVariable("minute").Value = Dayminute;
+          LogicObject.GetVariable("second").Value = Daysecond;
+
         // 	throw new Exception("datetime");
     }
 

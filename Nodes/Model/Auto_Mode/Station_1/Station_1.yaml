@@ -126,7 +126,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_1/Main_Motor"
+    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_1/Main_Motor_Speed"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -154,7 +154,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_1/Conveyor_Motor"
+    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_1/Conveyor_Motor_Speed"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -182,7 +182,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_1/Spinning_Motor_1"
+    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_1/Spinning_Motor_1_Speed"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -210,7 +210,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_1/Spinning_Motor_2"
+    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_1/Spinning_Motor_2_Speed"
     Children:
     - Name: Mode
       Type: BaseVariableType
