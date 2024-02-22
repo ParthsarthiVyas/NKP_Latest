@@ -2,7 +2,6 @@ Name: BatchData_Station_2
 Type: FolderType
 Children:
 - Name: BatchRunning
-  Id: g=c857d1e6e94e759efb2a0887224fab61
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false

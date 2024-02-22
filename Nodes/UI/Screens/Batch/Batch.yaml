@@ -1014,41 +1014,6 @@ Children:
                   Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                   ValueRank: ScalarOrOneDimension
                   Value: 0
-            - Name: MethodContainer1
-              Type: BaseObjectType
-              Children:
-              - Name: ns=3;ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: "/Objects/Commands/VariableCommands"
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-              - Name: ns=3;Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Set"
-              - Name: InputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: VariableToModify
-                  Type: BaseDataVariableType
-                  DataType: VariablePointer
-                  Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                  Value: "/Objects/NKP_Latest/Model/BatchData_Station_1/BatchRunning"
-                - Name: Value
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                  Value: true
-                - Name: ArrayIndex
-                  Type: BaseDataVariableType
-                  DataType: UInt32
-                  Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                  ValueRank: ScalarOrOneDimension
-                  Value: 0
           - Name: EventArguments
             Type: MouseClickEvent
             Children:
@@ -1162,67 +1127,6 @@ Children:
                   Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                   ValueRank: ScalarOrOneDimension
                   Value: 0
-            - Name: MethodContainer2
-              Type: BaseObjectType
-              Children:
-              - Name: ns=3;ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: "/Objects/Commands/VariableCommands"
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-              - Name: ns=3;Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Set"
-              - Name: InputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: VariableToModify
-                  Type: BaseDataVariableType
-                  DataType: VariablePointer
-                  Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                  Value: "/Objects/NKP_Latest/Model/BatchData_Station_1/BatchRunning"
-                - Name: Value
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                  Value: false
-                - Name: ArrayIndex
-                  Type: BaseDataVariableType
-                  DataType: UInt32
-                  Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                  ValueRank: ScalarOrOneDimension
-                  Value: 0
-            - Name: MethodContainer1
-              Type: BaseObjectType
-              Children:
-              - Name: ns=3;ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../LogBatchData@NodeId"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: ns=3;Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "BatchDataLogging"
             - Name: MethodContainer4
               Type: BaseObjectType
               Children:
@@ -3515,41 +3419,6 @@ Children:
                   Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                   ValueRank: ScalarOrOneDimension
                   Value: 0
-            - Name: MethodContainer1
-              Type: BaseObjectType
-              Children:
-              - Name: ns=3;ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: "/Objects/Commands/VariableCommands"
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-              - Name: ns=3;Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Set"
-              - Name: InputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: VariableToModify
-                  Type: BaseDataVariableType
-                  DataType: VariablePointer
-                  Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                  Value: "/Objects/NKP_Latest/Model/BatchData_Station_2/BatchRunning"
-                - Name: Value
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                  Value: true
-                - Name: ArrayIndex
-                  Type: BaseDataVariableType
-                  DataType: UInt32
-                  Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                  ValueRank: ScalarOrOneDimension
-                  Value: 0
           - Name: EventArguments
             Type: MouseClickEvent
             Children:
@@ -3663,67 +3532,6 @@ Children:
                   Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                   ValueRank: ScalarOrOneDimension
                   Value: 0
-            - Name: MethodContainer2
-              Type: BaseObjectType
-              Children:
-              - Name: ns=3;ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: "/Objects/Commands/VariableCommands"
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-              - Name: ns=3;Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Set"
-              - Name: InputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: VariableToModify
-                  Type: BaseDataVariableType
-                  DataType: VariablePointer
-                  Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
-                  Value: "/Objects/NKP_Latest/Model/BatchData_Station_2/BatchRunning"
-                - Name: Value
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
-                  Value: false
-                - Name: ArrayIndex
-                  Type: BaseDataVariableType
-                  DataType: UInt32
-                  Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
-                  ValueRank: ScalarOrOneDimension
-                  Value: 0
-            - Name: MethodContainer1
-              Type: BaseObjectType
-              Children:
-              - Name: ns=3;ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../LogBatchData@NodeId"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: ns=3;Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "BatchDataLogging"
             - Name: MethodContainer4
               Type: BaseObjectType
               Children:
