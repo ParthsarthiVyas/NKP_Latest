@@ -173,8 +173,20 @@ Children:
 - Name: Vial_Height
   Id: g=ba71d81a1d93b246b4b8bf7256569501
   Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Id: g=59c960ef8110ee399c494850ae2ae5b2
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Vial_height"
+    Children:
+    - Name: Mode
+      Id: g=372436294c0e5ad09463b3e60f04c753
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Batch_size
   Id: g=64fa6bc77391b7b3e54e4fdc6516aa58
   Type: BaseDataVariableType
@@ -236,6 +248,18 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=cb16035ece69bb6d71914919df76e5d8
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Batch_start_stop"
+    Children:
+    - Name: Mode
+      Id: g=30e515effd6a2167992793fdf782faf7
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: BatchNumberChanged
   Id: g=f4af47ab9f8a16071e2dc8c53ae4b336
   Type: VariableChangedEventDispatcher
@@ -245,3 +269,258 @@ Children:
     Type: BaseVariableType
     DataType: NodePath
     Value: "../BatchNumber"
+- Name: Start_Date
+  Id: g=40606bed7d22802f5ad68baa04125285
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=4650d05f3f1cecd8024ef41b827ed70b
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:64                BATCH START DATE"
+    Children:
+    - Name: Mode
+      Id: g=5a3b2dcab30c35f38c078eca46b91d56
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Start_Month
+  Id: g=38fb209f92532e1c4fa71db4283455ef
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=1c105505b9dace445df79f1ec6110505
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:65                 BATCH START MONTH"
+    Children:
+    - Name: Mode
+      Id: g=d6fd32651b0ea334d2aa9c6581d09bd0
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Start_Year
+  Id: g=d11873aeef7c2d3cebfb9d21b73d7a45
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=3f5e4dcbd728020b21e801b6139b8bda
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:66                 BATCH START YEAR"
+    Children:
+    - Name: Mode
+      Id: g=2fd17e336165fdbcc6d54c37a987cdf5
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Start_Hour
+  Id: g=ed45cce7e642a42f595f72f7158cd0d4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=943d4f7d484d62cc0c0afe67a086f3f5
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:61                   BATCH START HOUR"
+    Children:
+    - Name: Mode
+      Id: g=bc30f8846b9180c4b9382479912c4e89
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Start_Minute
+  Id: g=68eaf17186363eab36aaf518a358e7b2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=46eec21025ff21355ec09926ca62f420
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:62                   BATCH START MINUTE"
+    Children:
+    - Name: Mode
+      Id: g=34c4d91306bba9e4f99dbffbac1496a6
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Start_Sec
+  Id: g=588c3597bb030d80c3603075d55107e1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=a55eba5477a33cec74c6f2ed7573c55f
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:63                   BATCH START SECOND"
+    Children:
+    - Name: Mode
+      Id: g=606a55a007cff6f6394895e585560bf8
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Stop_Date
+  Id: g=f5f065a2f25fa638687a0b46929bc12f
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=6f94d727ffe7c5444f471027c9770ddc
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:77                  BATCH STOP DATE"
+    Children:
+    - Name: Mode
+      Id: g=a962d012dd6dd2f7916c1273243693b2
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Stop_Month
+  Id: g=b562fcb4329587f37b4d05a1a35cf455
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=df861b1b59b27dfb396fe7c96c52a02f
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:78                 BATCH STOP MONTH"
+    Children:
+    - Name: Mode
+      Id: g=41f029804671f312f006b045aaafdd04
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Stop_Year
+  Id: g=05a477f846b9fe74e8c7850c2f2b4380
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=327baf85d53d3f5323cf3d3754bddb29
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:79                 BATCH STOP YEAR"
+    Children:
+    - Name: Mode
+      Id: g=155643fea7f44b653b6da7262ace637f
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Stop_Hour
+  Id: g=f8ea728cf0d3ff3e5a77efc5e6a6ec85
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=079eebad3e1bbea8a9d027c0b1fd25b5
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:74                   BATCH STOP HOUR"
+    Children:
+    - Name: Mode
+      Id: g=49b43388433560aeb19085272583558f
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Stop_Minute
+  Id: g=7c953c81c80df4732730ed6d06c4431d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=5f8d81bc9b7ca50082beaa8c2e4f6c30
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:75                   BATCH STOP MINUTE"
+    Children:
+    - Name: Mode
+      Id: g=fe4e879977ee5553361ca65957726511
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Stop_Second
+  Id: g=81dbe1a94a0124241e43c29c32b51e66
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=afbe3d1b7e46f1ecb608c6bc5ac56cfa
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:76                   BATCH STOP SECOND"
+    Children:
+    - Name: Mode
+      Id: g=172f51bc4efc87c06d520dd49ddc4701
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Duration_Hour
+  Id: g=b9a71a4d90ffcfa66f817594c7e8fd42
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=374ea04cf82fb5858c37dd697fa17dfb
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:81                   ACTUAL M_C WORKING HOUR"
+    Children:
+    - Name: Mode
+      Id: g=848d389d2c51923818f6b3133add5708
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Duration_Minute
+  Id: g=dec3729d008b4dd7695c24b507d441fc
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=002761c7855c85df7da62e32c7781016
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:80                   ACTUAL M_C WORKING MINUTE"
+    Children:
+    - Name: Mode
+      Id: g=1bd3a91441744e0e8cf61ff056af96e6
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Duration_Second
+  Id: g=387e37ea76f3adf7a389c7a6504e911a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=af1e4a35809991dc1f1156af0c6e4885
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/N7&:82                   ACTUAL M_C WORKING SECOND"
+    Children:
+    - Name: Mode
+      Id: g=667af248b04fd0948c45f92eff77ebde
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

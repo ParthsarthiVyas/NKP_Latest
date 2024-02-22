@@ -198,3 +198,30 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "B3:29/1"
+- Name: Batch_start_stop
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:32/0"
+- Name: Batch_running
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:4/2"
+- Name: Vial_height
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:45"

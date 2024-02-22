@@ -9,3 +9,30 @@ Children:
 - File: Recipe/Recipe.yaml
 - File: DataSetup/DataSetup.yaml
 - File: PrintTags/PrintTags.yaml
+- Name: Batch_start_stop
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: Batch_running
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:4/2"
+- Name: Vial_height
+  Type: MicroControllerTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "F8:45"
