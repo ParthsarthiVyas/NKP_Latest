@@ -105,7 +105,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Recipe_Name_T2"
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Recipe_Name_T2"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -119,7 +119,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Main_machine_Speed_T2"
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Main_machine_Speed_T2"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -133,7 +133,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Conveyor_Speed_T2"
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Conveyor_Speed_T2"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -147,7 +147,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Spinning_motor_1_speed_T2"
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Spinning_motor_1_speed_T2"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -161,7 +161,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Spinning_motor_2_speed_T2"
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Spinning_motor_2_speed_T2"
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -175,7 +175,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Recipe/Rejection_Step_T2"
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Rejection_Step_T2"
       Children:
       - Name: Mode
         Type: BaseVariableType

@@ -48,4 +48,4 @@ Project:
   Files: 2
  Nodes:
  - File: DesignTimeNodes/CommDrivers/Station_1_PLC/MicroControllerStation1/TagImporter.yaml
- - File: DesignTimeNodes/CommDrivers/Station_2_PLC/MicroControllerStation1/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/Station_2_PLC/MicroControllerStation2/TagImporter.yaml

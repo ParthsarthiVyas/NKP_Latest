@@ -33,4 +33,4 @@ Children:
   Type: BaseDataVariableType
   DataType: StopBits
   Value: 0
-- File: MicroControllerStation1/MicroControllerStation1.yaml
+- File: MicroControllerStation2/MicroControllerStation2.yaml

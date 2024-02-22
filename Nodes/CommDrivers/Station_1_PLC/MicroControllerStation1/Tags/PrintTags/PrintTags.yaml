@@ -9,7 +9,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "ST27:4"
 - Name: 'ST27:0     EQUIPMENTNAME'
   Type: MicroControllerTag
   DataType: String
@@ -18,7 +18,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "ST27:0"
 - Name: 'ST27:1     EQUIPMENTID'
   Type: MicroControllerTag
   DataType: String
@@ -27,7 +27,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "ST27:1"
 - Name: 'ST27:6      BATCHNO'
   Type: MicroControllerTag
   DataType: String
@@ -36,8 +36,8 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
-- Name: 'ST27:1      PRODUCTNAME'
+    Value: "ST27:6"
+- Name: 'ST27:2      PRODUCTNAME'
   Type: MicroControllerTag
   DataType: String
   Value: "0"
@@ -45,7 +45,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "ST27:2"
 - Name: 'L19:20     PROGRESSIVENUMBER'
   Type: MicroControllerTag
   DataType: Float
@@ -54,7 +54,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "L19:20"
 - Name: 'L19:10          BATCHSIZE'
   Type: MicroControllerTag
   DataType: Float
@@ -63,7 +63,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "L19:10"
 - Name: 'N7:80        PRODUCTSIZE'
   Type: MicroControllerTag
   DataType: Float
@@ -72,7 +72,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "N7:80"
 - Name: 'L19:0               TOTALVIAL'
   Type: MicroControllerTag
   DataType: Float
@@ -81,7 +81,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "L19:0"
 - Name: 'L19:1               TOTALREJECTEDVIAL'
   Type: MicroControllerTag
   DataType: Float
@@ -90,7 +90,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "L19:1"
 - Name: 'L19:2                     TOTALGOODVIAL'
   Type: MicroControllerTag
   DataType: Float
@@ -99,7 +99,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "L19:2"
 - Name: 'F8:13                     %OFREJECTION'
   Type: MicroControllerTag
   DataType: Float
@@ -108,7 +108,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "F8:13"
 - Name: 'L19:6           MAXVAILREJECTIONLIMIT'
   Type: MicroControllerTag
   DataType: Float
@@ -117,7 +117,7 @@ Children:
   - Name: SymbolName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "L19:6"
 - File: EventLogs/EventLogs.yaml
 - Name: 'N7:64                BATCH START DATE'
   Type: MicroControllerTag

@@ -9,7 +9,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_1"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_1"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -23,7 +23,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_2"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -37,7 +37,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_3"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_3"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -51,7 +51,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_4"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_4"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -65,7 +65,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_5"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_5"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -79,7 +79,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_6"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_6"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -93,7 +93,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_7"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_7"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -107,7 +107,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_8"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_8"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -121,7 +121,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_9"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_9"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -135,7 +135,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_10"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_10"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -149,7 +149,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_11"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_11"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -163,7 +163,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_12"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_12"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -177,7 +177,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_13"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_13"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -191,7 +191,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_14"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_14"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -205,7 +205,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_15"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_15"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -219,7 +219,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_16"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_16"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -233,7 +233,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_17"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_17"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -247,7 +247,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_18"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_18"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -261,7 +261,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_19"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_19"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -275,7 +275,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_20"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_20"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -289,7 +289,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_21"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_21"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -303,7 +303,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_22"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_22"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -317,7 +317,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_23"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_23"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -331,7 +331,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_24"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_24"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -345,7 +345,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_25"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_25"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -359,7 +359,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_26"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_26"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -373,7 +373,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_27"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_27"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -387,7 +387,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_28"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_28"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -401,7 +401,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_29"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_29"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -415,7 +415,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_30"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_30"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -429,7 +429,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_31"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_31"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -443,7 +443,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_32"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_32"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -457,7 +457,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_33"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_33"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -471,7 +471,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_34"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_34"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -485,7 +485,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_35"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_35"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -499,7 +499,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_36"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_36"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -513,7 +513,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_37"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_37"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -527,7 +527,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_38"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_38"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -541,7 +541,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_39"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_39"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -555,7 +555,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_40"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_40"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -569,7 +569,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_41"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_41"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -583,7 +583,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_42"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_42"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -597,7 +597,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_43"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_43"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -611,7 +611,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_44"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_44"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -625,7 +625,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_45"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_45"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -639,7 +639,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_46"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_46"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -653,7 +653,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_47"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_47"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -667,7 +667,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_48"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_48"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -681,7 +681,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_49"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_49"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -695,7 +695,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_50"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_50"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -709,7 +709,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_51"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_51"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -723,7 +723,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_52"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_52"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -737,7 +737,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_53"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_53"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -751,7 +751,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_54"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_54"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -765,7 +765,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_55"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_55"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -779,7 +779,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_56"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_56"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -793,7 +793,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_57"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_57"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -807,7 +807,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_58"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_58"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -821,7 +821,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_valve_1"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_valve_1"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -835,7 +835,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_valve_2"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_valve_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -849,7 +849,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_valve_3"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_valve_3"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -863,7 +863,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_valve_4"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Rj_valve_4"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -877,7 +877,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Auto_Mode/Station_2/Rejection_steps/Reset_button"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Auto_Mode/Station_2/Rejection_steps/Reset_button"
     Children:
     - Name: Mode
       Type: BaseVariableType

@@ -205,7 +205,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Emergency_Stop_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Emergency_Stop_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -219,7 +219,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Minimum_Accumulation_At_Infeed_Conveyor_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Minimum_Accumulation_At_Infeed_Conveyor_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -233,7 +233,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Foot_Switch_Operated_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Foot_Switch_Operated_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -247,7 +247,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/ Door_Open_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/ Door_Open_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -261,7 +261,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/No_Tray_At_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/No_Tray_At_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -275,7 +275,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Main_Drive_Faulted_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Main_Drive_Faulted_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -289,7 +289,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Conveyor_Drive_Faulted_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Conveyor_Drive_Faulted_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -303,7 +303,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Spinning_1_Drive_Faulted_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Spinning_1_Drive_Faulted_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -317,7 +317,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Spinning_2_Drive_Faulted_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Spinning_2_Drive_Faulted_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -331,7 +331,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Maximum_Vial_Rejected_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Maximum_Vial_Rejected_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -345,7 +345,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Vacuum_Pump_Trip_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Vacuum_Pump_Trip_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -359,7 +359,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Vacuum_Pressure_Low_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Vacuum_Pressure_Low_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -373,7 +373,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Rejection_Track_Full_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Rejection_Track_Full_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -387,7 +387,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Alarm/Rejected_Vial_Not_Confirmed_At_Rejection_Station_2"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Alarm/Rejected_Vial_Not_Confirmed_At_Rejection_Station_2"
     Children:
     - Name: Mode
       Type: BaseVariableType

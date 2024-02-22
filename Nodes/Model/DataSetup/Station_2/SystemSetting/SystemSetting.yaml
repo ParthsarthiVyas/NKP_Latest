@@ -10,7 +10,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/RejectionSystem"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/SystemSetting/RejectionSystem"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -25,7 +25,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/NoVialAtInfeed"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/SystemSetting/NoVialAtInfeed"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -40,7 +40,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/NoTrayMachineShop"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/SystemSetting/NoTrayMachineShop"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -55,7 +55,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/DoorSensor"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/SystemSetting/DoorSensor"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -70,7 +70,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/SystemSetting/FootSwtich"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/SystemSetting/FootSwtich"
     Children:
     - Name: Mode
       Type: BaseVariableType

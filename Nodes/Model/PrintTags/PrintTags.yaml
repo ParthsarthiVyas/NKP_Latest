@@ -227,7 +227,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../../../../../../Retain_Variable/CurrentUser"
+                Value: "../../../../../../../../BatchData_Station_1/Operatorname"
       - Name: Pair9
         Type: ValueMapPair
         Children:
@@ -1093,7 +1093,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/N7&:81                   ACTUAL M_C WORKING HOUR"
+                Value: "../../../../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/N7&:81                   ACTUAL M_C WORKING HOUR"
             - Name: ns=3;Source4
               Type: BaseDataVariableType
               DataType: BaseDataType
@@ -1102,7 +1102,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/N7&:80                   ACTUAL M_C WORKING MINUTE"
+                Value: "../../../../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/N7&:80                   ACTUAL M_C WORKING MINUTE"
             - Name: ns=3;Source5
               Type: BaseDataVariableType
               DataType: BaseDataType
@@ -1111,7 +1111,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/N7&:82                   ACTUAL M_C WORKING SECOND"
+                Value: "../../../../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/N7&:82                   ACTUAL M_C WORKING SECOND"
       - Name: Pair37
         Type: ValueMapPair
         Children:
@@ -1351,7 +1351,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../../../../../../Retain_Variable/CurrentUser"
+                Value: "../../../../../../../../BatchData_Station_1/Operatorname"
       - Name: Pair49
         Type: ValueMapPair
         Children:
@@ -2507,7 +2507,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../../../../../../Retain_Variable/CurrentUser"
+                Value: "../../../../../../../../BatchData_Station_1/Operatorname"
       - Name: Pair106
         Type: ValueMapPair
         Children:

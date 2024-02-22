@@ -9,7 +9,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/TimerSetting/Minimum_Vial_at_Infeed_Conveyor_On_Delay"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/TimerSetting/Minimum_Vial_at_Infeed_Conveyor_On_Delay"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -37,7 +37,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/TimerSetting/Minimum_Vial_at_Infeed_Conveyor_Off_Delay"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/TimerSetting/Minimum_Vial_at_Infeed_Conveyor_Off_Delay"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -65,7 +65,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/TimerSetting/No_Tray_Machine_Stop_Delay"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/TimerSetting/No_Tray_Machine_Stop_Delay"
     Children:
     - Name: Mode
       Type: BaseVariableType

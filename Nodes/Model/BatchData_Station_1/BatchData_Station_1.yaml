@@ -34,7 +34,7 @@ Children:
     Id: g=164519857a58e7819221ede18a9415fb
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/ST27&:1      PRODUCTNAME"
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/PrintTags/ST27&:2      PRODUCTNAME"
     Children:
     - Name: Mode
       Id: g=788842a72ef148d20b84a10a6a700f78

@@ -17,7 +17,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_0"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_0"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -111,7 +111,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_1"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_1"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -205,7 +205,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_2"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_2"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -236,7 +236,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_3"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_3"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -330,7 +330,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_4"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_4"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -424,7 +424,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_5"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_5"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -518,7 +518,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_6"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_6"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -612,7 +612,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_7"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_7"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -706,7 +706,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_8"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_8"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -800,7 +800,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:11_1"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:11_1"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -894,7 +894,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:12_14"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:12_14"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -988,7 +988,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:29_1"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:29_1"
     - Name: Pairs
       Type: BaseObjectType
       Children:
@@ -1082,7 +1082,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/PrintTags/B3&:19_1"
+        Value: "../../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/PrintTags/B3&:19_1"
     - Name: Pairs
       Type: BaseObjectType
       Children:

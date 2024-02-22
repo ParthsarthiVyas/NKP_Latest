@@ -135,7 +135,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Calibration/S2_VP_Min"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Calibration/S2_VP_Min"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -163,7 +163,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Calibration/S2_VP_PV"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Calibration/S2_VP_PV"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -177,7 +177,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Calibration/S2_VP_Max"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Calibration/S2_VP_Max"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -205,7 +205,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Calibration/S2_MM_Min"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Calibration/S2_MM_Min"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -233,7 +233,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/Calibration/S2_MM_Hz"
+    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Calibration/S2_MM_Hz"
     Children:
     - Name: Mode
       Type: BaseVariableType

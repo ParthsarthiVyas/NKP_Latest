@@ -9,7 +9,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Rejection_Step"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Rejection_Step"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -37,7 +37,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Rejection_Track_Full_Limit"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Rejection_Track_Full_Limit"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -66,7 +66,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Rejection Selection - 1"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Rejection Selection - 1"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -81,7 +81,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Rejection Selection - 2"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Rejection Selection - 2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -96,7 +96,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Rejection Selection - 3"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Rejection Selection - 3"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -111,7 +111,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Rejection Selection - 4"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Rejection Selection - 4"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -126,7 +126,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Disc Sensor-1"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Disc Sensor-1"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -141,7 +141,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Disc Sensor-2"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Disc Sensor-2"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -156,7 +156,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Disc Sensor-3"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Disc Sensor-3"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -171,7 +171,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/VialRejection/Disc Sensor-4"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/VialRejection/Disc Sensor-4"
     Children:
     - Name: Mode
       Type: BaseVariableType

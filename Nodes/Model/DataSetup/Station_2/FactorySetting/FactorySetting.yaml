@@ -9,7 +9,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/FactorySetting/MicroControllerTag1"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/FactorySetting/MicroControllerTag1"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -23,7 +23,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation1/Tags/DataSetup/Station_2/FactorySetting/Load"
+    Value: "../../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/DataSetup/Station_2/FactorySetting/Load"
     Children:
     - Name: Mode
       Type: BaseVariableType
