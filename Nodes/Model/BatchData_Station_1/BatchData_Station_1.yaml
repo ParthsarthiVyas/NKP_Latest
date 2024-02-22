@@ -54,8 +54,8 @@ Children:
 - Name: TotalCounts
   Id: g=1afbc12199c07b9d719313c4b0ce4611
   Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: DynamicLink
     Id: g=32411c0b918d223cf19b773357eb3413
@@ -71,8 +71,8 @@ Children:
 - Name: RejectCounts
   Id: g=69f9f3a6bfa93c649a98b9154d68a932
   Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: DynamicLink
     Id: g=3c096c56622255341fa3dfbbee7f3e25
@@ -88,8 +88,8 @@ Children:
 - Name: GoodCounts
   Id: g=c8a074effff5daae211871ea68b45e54
   Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: DynamicLink
     Id: g=ed113dc817be95f8d030e655b4a4032c
@@ -178,8 +178,8 @@ Children:
 - Name: Batch_size
   Id: g=64fa6bc77391b7b3e54e4fdc6516aa58
   Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: DynamicLink
     Id: g=5c3ffb35600366eed63e6d510af193e6
@@ -195,8 +195,8 @@ Children:
 - Name: Product_size
   Id: g=cf639e28d8a0cc0c513b05dd93bcb087
   Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: DynamicLink
     Id: g=b8101777e35e8649ed0ea75063e1a46d
@@ -214,18 +214,6 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
-  Children:
-  - Name: DynamicLink
-    Id: g=76fd7aea432fbddf458216d678670d76
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../Retain_Variable/CurrentUser"
-    Children:
-    - Name: Mode
-      Id: g=310e7d1d08e5097524408ab05c45dec4
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
 - Name: Recipename
   Id: g=f73b88b55ff0bcf9e5a9da842514a0d2
   Type: BaseDataVariableType

@@ -7431,7 +7431,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/NKP_Latest/Model/BatchData_Station_2/Operatorname"
+            Value: "/Objects/NKP_Latest/Model/BatchData_Station_1/Operatorname"
             Children:
             - Name: Mode
               Type: BaseVariableType
