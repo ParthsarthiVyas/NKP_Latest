@@ -3494,7 +3494,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 361.0
+        Value: 398.0
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -3665,6 +3665,16 @@ Children:
         DataType: ResourceUri
         ModellingRule: Optional
         Value: "ns=40;%PROJECTDIR%/Reports.png"
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: false
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: false
     - Name: Button10
       Type: Button
       Children:
@@ -3697,7 +3707,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 399.0
+        Value: 359.0
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
