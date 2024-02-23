@@ -36,3 +36,12 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "F8:45"
+- Name: Batch_reset
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:9/8"
