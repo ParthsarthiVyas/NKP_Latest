@@ -3210,6 +3210,10 @@ Children:
                   Type: PropertyType
                   DataType: UInt16
                   Value: 0
+          - Name: NameOfRecipe
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "0"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -3262,6 +3266,26 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 46.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1000.0
         - Name: Label2
           Type: Label
           Children:
@@ -3284,6 +3308,26 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 35.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1000.0
   - Name: TopMargin
     Type: BaseVariableType
     DataType: Size

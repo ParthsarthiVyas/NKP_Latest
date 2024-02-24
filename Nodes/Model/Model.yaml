@@ -11,6 +11,7 @@ Children:
 - File: BatchData_Station_2/BatchData_Station_2.yaml
 - File: Recipe/Recipe.yaml
 - File: Alarms/Alarms.yaml
+- File: Report_path/Report_path.yaml
 - Name: AutoLogOutTrigger
   Type: BaseDataVariableType
   DataType: Int32
@@ -77,3 +78,12 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: NameOfRecipe
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Printed_BY
+  Id: g=b931c45bcca17fd54061a645956f6d88
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

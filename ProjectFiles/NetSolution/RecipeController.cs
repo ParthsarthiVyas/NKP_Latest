@@ -57,6 +57,7 @@ public class RecipeController : BaseNetLogic
         SelectFromDBTrigger = LogicObject.GetVariable("SelectFromDBTrigger");
         if (SelectFromDBTrigger != null)
             variableSynchronizer.Add(SelectFromDBTrigger);
+
     }
 
     public override void Stop()
@@ -92,6 +93,7 @@ public class RecipeController : BaseNetLogic
             return;
 
         schema.CopyFromStoreRecipe(name, editModelNode.NodeId, ErrorPolicy);
+        
     }
 
     [ExportMethod]
@@ -138,11 +140,14 @@ public class RecipeController : BaseNetLogic
                  //   LogIntoAudit("New Recipe Created", name, "RecipeApplicationEvent");
                 }
             }
+//            LogicObject.GetVariable("Model/NameOfRecipe").Value = name;
+            
         }
         catch (Exception e)
         {
             SetFeedback(2, e.Message);
         }
+
     }
 
     [ExportMethod]
@@ -220,15 +225,17 @@ public class RecipeController : BaseNetLogic
                 SetFeedback(1, "Recipe applied");
                 //LogIntoAudit("Recipe Applied", RecipeName, "RecipeApplicationEvent");
             }
+
         }
         catch (Exception e)
         {
             SetFeedback(2, e.Message);
         }
+
     }
 
     [ExportMethod]
-    public void ApplyFromDB(string RecipeName, CopyErrorPolicy ErrorPolicy)
+    public void ApplyFromDB(string RecipeName, string NameOfRecipe ,CopyErrorPolicy ErrorPolicy)
     {
         if (ApplyFromDBTrigger != null)
             ApplyFromDBTrigger.Value = 0;
@@ -237,6 +244,7 @@ public class RecipeController : BaseNetLogic
         if (schema == null) return;
 
         string name = RecipeName;
+      
         if (String.IsNullOrEmpty(RecipeName))
         {
             name = GetRecipeName();
@@ -253,11 +261,16 @@ public class RecipeController : BaseNetLogic
             SetFeedback(1, "Recipe applied");
             //LogIntoAudit("Recipe Applied", schema.BrowseName, "RecipeApplicationEvent");
             LogicObject.GetVariable("LastAppliedRecipe").SetValueNoPermissions(name);
+
+
         }
         catch (Exception e)
         {
             SetFeedback(2, e.Message);
         }
+//        LogicObject.GetVariable("NameOfRecipe").Value = name;
+        Project.Current.GetVariable("Model/NameOfRecipe").Value = name;
+
     }
 
     [ExportMethod]
@@ -580,7 +593,7 @@ public class RecipeController : BaseNetLogic
         var rowCount = resultSet != null ? resultSet.GetLength(0) : 0;
         return rowCount > 0;
     }
-
+   
 
     #region ImportExport
 
@@ -1079,6 +1092,7 @@ public class RecipeController : BaseNetLogic
         string[] columns = new string[8] {"LocalTimeStamp", "SourceName", "Message", "ClientUserId", "ClientUserNote", "SecondClientUserId", "SecondClientUserNote", "EventType"};
         myTable.Insert(columns,rawValues);
 	} */
+
 
     private RemoteVariableSynchronizer variableSynchronizer;
     private DelayedTask task;

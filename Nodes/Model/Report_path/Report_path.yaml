@@ -1,0 +1,8 @@
+Name: Report_path
+Type: FolderType
+Children:
+- Name: Batch_Summery_path
+  Id: g=2c0e8fe4156de645d67b40a2fe80303e
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "D:\\Batch_summery_report.pdf"

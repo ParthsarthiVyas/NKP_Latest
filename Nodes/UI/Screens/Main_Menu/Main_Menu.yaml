@@ -3494,7 +3494,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 398.0
+        Value: 360.0
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -3669,12 +3669,12 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
+        Value: true
       - Name: Enabled
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
+        Value: true
     - Name: Button10
       Type: Button
       Children:
@@ -3707,7 +3707,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 359.0
+        Value: 397.0
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
