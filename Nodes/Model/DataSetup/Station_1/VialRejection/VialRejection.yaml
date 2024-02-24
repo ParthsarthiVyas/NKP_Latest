@@ -29,6 +29,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 999.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Rejection_Track_Full_Limit
   Type: BaseDataVariableType
   DataType: Int32
@@ -57,6 +62,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 999.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: 'Rejection Selection - 1'
   Id: g=a8fadc88e311c736d1143c5e21c33216
   Type: BaseDataVariableType

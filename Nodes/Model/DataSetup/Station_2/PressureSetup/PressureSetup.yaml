@@ -33,4 +33,4 @@ Children:
       Type: BaseVariableType
       DataType: Boolean
       ReferenceType: HasProperty
-      Value: false
+      Value: true

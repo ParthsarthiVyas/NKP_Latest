@@ -29,6 +29,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 1.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: S1_VP_PV
   Type: BaseDataVariableType
   DataType: Float
@@ -71,6 +76,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 1.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: S1_MM_Min
   Type: BaseDataVariableType
   DataType: Float
@@ -99,6 +109,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: S1_MM_Hz
   Type: BaseDataVariableType
   DataType: Float
@@ -127,6 +142,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 60.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: S2_VP_Min
   Type: BaseDataVariableType
   DataType: Float
@@ -135,7 +155,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Calibration/S2_VP_Min"
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Calibration/S2_VP_Min"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -155,6 +175,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 1.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: S2_VP_PV
   Type: BaseDataVariableType
   DataType: Float
@@ -163,7 +188,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Calibration/S2_VP_PV"
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Calibration/S2_VP_PV"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -177,7 +202,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Calibration/S2_VP_Max"
+    Value: "../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Calibration/S2_VP_Max"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -197,6 +222,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 1.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: S2_MM_Min
   Type: BaseDataVariableType
   DataType: Float
@@ -225,6 +255,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: S2_MM_Hz
   Type: BaseDataVariableType
   DataType: Float
@@ -253,3 +288,8 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 60.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true

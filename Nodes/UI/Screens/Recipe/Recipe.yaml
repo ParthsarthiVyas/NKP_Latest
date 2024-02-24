@@ -1054,7 +1054,7 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: TextBox1
+              - Name: Textbox
                 Type: TextBox
                 Children:
                 - Name: Text
@@ -1070,23 +1070,12 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
-                      ModellingRule: Optional
                       Value: 2
-                - Name: Width
+                - Name: VerticalAlignment
                   Type: BaseVariableType
-                  DataType: Size
+                  DataType: VerticalAlignment
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 350.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 0.0
+                  Value: 2
                 - Name: HorizontalAlignment
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
@@ -1097,11 +1086,21 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 100.0
-                - Name: VerticalAlignment
+                - Name: Width
                   Type: BaseVariableType
-                  DataType: VerticalAlignment
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 100.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ModellingRule: Optional
+                  Value: true
+                - Name: ContentType
+                  Type: BaseVariableType
+                  DataType: InputTypeEnum
+                  ModellingRule: Optional
+                  Value: 0
             - Name: Main_Machine_speed_T1
               Type: Panel
               Children:
@@ -1160,13 +1159,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1176,32 +1175,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 20.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 100.0
             - Name: Conveyor_speed_T1
               Type: Panel
               Children:
@@ -1260,13 +1260,18 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1276,37 +1281,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 0.0
+                  Value: 350.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 50.0
             - Name: Spinning_Motor_1_Speed_T1
               Type: Panel
               Children:
@@ -1365,13 +1366,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1381,32 +1382,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 50.0
             - Name: Spinning_Motor_2_Speed_T1
               Type: Panel
               Children:
@@ -1465,13 +1467,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1481,42 +1483,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 2.0
-                - Name: BottomMargin
-                  Type: BaseVariableType
-                  DataType: Size
+                  Value: 9.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
                   ModellingRule: Optional
                   Value: 0.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 50.0
             - Name: Rejection_Step
               Type: Panel
               Children:
@@ -1575,13 +1568,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1591,32 +1584,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 50.0
             - Name: 'Track-2'
               Type: Panel
               Children:
@@ -1822,13 +1816,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1838,32 +1832,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 20.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 100.0
             - Name: Conveyor_speed_T2
               Type: Panel
               Children:
@@ -1922,13 +1917,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -1938,42 +1933,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: -2.0
-                - Name: BottomMargin
-                  Type: BaseVariableType
-                  DataType: Size
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
                   ModellingRule: Optional
                   Value: 0.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 50.0
             - Name: Spinning_Motor_1_Speed_T2
               Type: Panel
               Children:
@@ -2032,13 +2018,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -2048,42 +2034,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
                 - Name: TopMargin
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 2.0
-                - Name: BottomMargin
-                  Type: BaseVariableType
-                  DataType: Size
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
                   ModellingRule: Optional
                   Value: 0.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 50.0
             - Name: Spinning_Motor_2_Speed_T2
               Type: Panel
               Children:
@@ -2142,13 +2119,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -2158,32 +2135,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 50.0
             - Name: Rejection_Step1
               Type: Panel
               Children:
@@ -2242,13 +2220,13 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: 20.0
-              - Name: Textbox
-                Type: TextBox
+              - Name: SpinBox1
+                Type: SpinBox
                 Children:
-                - Name: Text
+                - Name: Value
                   Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  DataType: Double
+                  Value: 0.0
                   Children:
                   - Name: DynamicLink
                     Type: DynamicLink
@@ -2258,32 +2236,33 @@ Children:
                     - Name: Mode
                       Type: BaseVariableType
                       DataType: DynamicLinkMode
+                      ModellingRule: Optional
                       Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 100.0
                 - Name: Width
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 100.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
+                  Value: 99.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
                   ModellingRule: Optional
-                  Value: true
+                  Value: 350.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 8.0
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 0.0
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  ModellingRule: Optional
+                  Value: 50.0
         - Name: RecipeSchema
           Type: NodePointer
           DataType: NodeId

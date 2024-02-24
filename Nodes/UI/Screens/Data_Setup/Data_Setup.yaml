@@ -274,7 +274,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Timer Setting"}
+      Value: {"LocaleId":"en-US","Text":"Timer Setting(S-1)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -392,7 +392,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Factory Setting"}
+      Value: {"LocaleId":"en-US","Text":"Factory Setting(S-1)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -510,7 +510,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Pressure Setup"}
+      Value: {"LocaleId":"en-US","Text":"Pressure Setup(S-1)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -628,7 +628,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Vial Rejection"}
+      Value: {"LocaleId":"en-US","Text":"Vial Rejection(S-1)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -746,7 +746,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"System Setup"}
+      Value: {"LocaleId":"en-US","Text":"System Setup(S-1)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1493,7 +1493,7 @@ Children:
       DataType: TextVerticalAlignment
       ModellingRule: Optional
       Value: 2
-  - Name: Manual_Mode_S1
+  - Name: Timer_Setting_S1
     Type: Label
     Children:
     - Name: LeftMargin
@@ -2649,7 +2649,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Vial Rejection-1(S-1)"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -2665,7 +2665,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Vial Rejection-2(S-1)"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -2681,7 +2681,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Vial Rejection-3(S-1)"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -6898,6 +6898,107 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 250.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#00000000"
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+  - Name: 'System Setting Station-1'
+    Type: Label
+    Children:
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 239.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"System Setting Station-1"}
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
 - Name: System_Setup_S1_Navigation
   Id: g=99e67be9fea53f31e7094c4565ed5abf
   Supertype: Panel
@@ -7956,7 +8057,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Timer Setting"}
+      Value: {"LocaleId":"en-US","Text":"Timer Setting(S-2)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -8074,7 +8175,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Factory Setting"}
+      Value: {"LocaleId":"en-US","Text":"Factory Setting(S-2)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -8192,7 +8293,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Pressure Setup"}
+      Value: {"LocaleId":"en-US","Text":"Pressure Setup(S-2)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -8310,7 +8411,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Vial Rejection"}
+      Value: {"LocaleId":"en-US","Text":"Vial Rejection(S-2)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -8428,7 +8529,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"System Setup"}
+      Value: {"LocaleId":"en-US","Text":"System Setup(S-2)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -9175,7 +9276,7 @@ Children:
       DataType: TextVerticalAlignment
       ModellingRule: Optional
       Value: 2
-  - Name: Manual_Mode_S1
+  - Name: Timer_Setting_s2
     Type: Label
     Children:
     - Name: LeftMargin
@@ -9202,7 +9303,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Timer Setting Station-1"}
+      Value: {"LocaleId":"en-US","Text":"Timer Setting Station-2"}
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
@@ -10331,7 +10432,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Vial Rejection-1(S-2)"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -10347,7 +10448,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Vial Rejection-2(S-2)"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -10363,7 +10464,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Vial Rejection-3(S-2)"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -14571,6 +14672,107 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 250.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#00000000"
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+  - Name: 'System Setting Station-2'
+    Type: Label
+    Children:
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 239.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"System Setting Station-2"}
+    - Name: TextHorizontalAlignment
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontSize
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
 - Name: System_Setup_S2_Navigation
   Id: g=b4a9636121c9baa5360056731a2a0459
   Supertype: Panel

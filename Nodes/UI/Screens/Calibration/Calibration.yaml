@@ -559,7 +559,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 484.0
+      Value: 427.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -632,7 +632,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 484.0
+      Value: 427.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -889,7 +889,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 588.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1235,7 +1235,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 484.0
+      Value: 427.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1308,7 +1308,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 484.0
+      Value: 427.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -1565,7 +1565,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 168.0
+      Value: 586.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size

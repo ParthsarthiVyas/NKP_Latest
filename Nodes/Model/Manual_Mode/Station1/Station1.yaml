@@ -309,6 +309,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 100.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Conveyor_Hz
   Type: BaseDataVariableType
   DataType: Float
@@ -337,6 +342,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Spinning1_Hz
   Type: BaseDataVariableType
   DataType: Float
@@ -365,6 +375,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Spinning2_Hz
   Type: BaseDataVariableType
   DataType: Float
@@ -393,3 +408,8 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true

@@ -122,7 +122,7 @@ Children:
       Type: BaseVariableType
       DataType: Boolean
       ReferenceType: HasProperty
-      Value: false
+      Value: true
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
@@ -151,6 +151,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
@@ -179,6 +184,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
@@ -207,6 +217,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
@@ -235,6 +250,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath

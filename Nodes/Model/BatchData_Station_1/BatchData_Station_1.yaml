@@ -187,6 +187,29 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+  - Name: ns=0;EURange
+    Id: g=509e0b24a73b0f6341c906353e3ca4d5
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=2ceb72b55aa05095513af91adc6b2a74
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=7db9bc069ec8b27310fe8dd03b12fbdf
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 9999999.0
+    - Name: Constrain
+      Id: g=12624f2de6bd8dbccb0c5588ba3e6b2d
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Batch_size
   Id: g=64fa6bc77391b7b3e54e4fdc6516aa58
   Type: BaseDataVariableType
@@ -204,6 +227,29 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+  - Name: ns=0;EURange
+    Id: g=40f4934591d43a959a7a13a3e4e834cc
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=52bca5057e695db2bf8bfea638098953
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=62954dad360022145ac22282b46531f9
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 9999999.0
+    - Name: Constrain
+      Id: g=091f4739af28d0f97db012c9473a51ff
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Product_size
   Id: g=cf639e28d8a0cc0c513b05dd93bcb087
   Type: BaseDataVariableType
@@ -221,6 +267,29 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+  - Name: ns=0;EURange
+    Id: g=7747ef816af74a4ec2740578b225080a
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=648187aef6a1a468622b3540bb61486a
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=a39c4222842834145c92ec619b74bf95
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 100.0
+    - Name: Constrain
+      Id: g=abc85f346c18f495ea3fdc26c1767b34
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Operatorname
   Id: g=228bd347cdc3a298bfec9e4281f1b83b
   Type: BaseDataVariableType

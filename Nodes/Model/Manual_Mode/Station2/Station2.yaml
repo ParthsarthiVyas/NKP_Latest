@@ -121,7 +121,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Manual_Mode/Station2/Vaccum_Button"
+    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Manual_Mode/Station1/Vaccum_Button"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -135,7 +135,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Manual_Mode/Station2/Vaccum_LED"
+    Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Manual_Mode/Station1/Vaccum_LED"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -309,6 +309,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 100.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Conveyor_Hz
   Type: BaseDataVariableType
   DataType: Float
@@ -337,6 +342,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Spinning1_Hz
   Type: BaseDataVariableType
   DataType: Float
@@ -365,6 +375,11 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
 - Name: Spinning2_Hz
   Type: BaseDataVariableType
   DataType: Float
@@ -393,3 +408,8 @@ Children:
       DataType: Double
       ReferenceType: HasProperty
       Value: 50.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true

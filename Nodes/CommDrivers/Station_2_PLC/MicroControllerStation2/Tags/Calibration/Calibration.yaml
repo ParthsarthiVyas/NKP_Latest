@@ -1,33 +1,6 @@
 Name: Calibration
 Type: FolderType
 Children:
-- Name: S2_VP_Min
-  Type: MicroControllerTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "F8:25"
-- Name: S2_VP_PV
-  Type: MicroControllerTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "F8:27"
-- Name: S2_VP_Max
-  Type: MicroControllerTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "F8:26"
 - Name: S2_MM_Min
   Type: MicroControllerTag
   DataType: Float

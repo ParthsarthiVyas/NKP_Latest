@@ -2491,7 +2491,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Main Motor (Vial/Min)"}
+      Value: {"LocaleId":"en-US","Text":"Machine Speed (Vial/Min)"}
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -2538,7 +2538,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Conveyor Motor (Hz)"}
+      Value: {"LocaleId":"en-US","Text":"Conveyor Motor Speed (Hz)"}
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
@@ -2580,7 +2580,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Spinning Motor-1 (Hz)"}
+      Value: {"LocaleId":"en-US","Text":"Spinning Motor-1 Speed (Hz)"}
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
@@ -2622,7 +2622,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Spinning Motor-2 (Hz)"}
+      Value: {"LocaleId":"en-US","Text":"Spinning Motor-2 Speed (Hz)"}
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
@@ -2988,6 +2988,11 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: "#0a5101de"
+    - Name: TextColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#000000"
   - Name: Stop_button
     Type: MomentaryButton
     Children:
@@ -4533,7 +4538,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Main Motor (Vial/Min)"}
+      Value: {"LocaleId":"en-US","Text":"Machine Speed (Vial/Min)"}
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -4580,7 +4585,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Conveyor Motor (Hz)"}
+      Value: {"LocaleId":"en-US","Text":"Conveyor Motor Speed (Hz)"}
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
@@ -4622,7 +4627,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Spinning Motor-1 (Hz)"}
+      Value: {"LocaleId":"en-US","Text":"Spinning Motor-1 Speed (Hz)"}
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
@@ -4664,7 +4669,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Spinning Motor-2 (Hz)"}
+      Value: {"LocaleId":"en-US","Text":"Spinning Motor-2 Speed (Hz)"}
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
