@@ -37,12 +37,12 @@ Children:
   Id: g=15181b7a213a434d373177c76b2eeb31
   Type: BaseDataVariableType
   DataType: DateString
-  Value: "Jan 1, 1601, 12:00:00 AM"
+  Value: ""
 - Name: BatchStopTime
   Id: g=0a9ab7cc3928b4a8ce7672f66bcc4a62
   Type: BaseDataVariableType
   DataType: DateString
-  Value: "Jan 1, 1601, 12:00:00 AM"
+  Value: ""
 - Name: TotalCounts
   Type: BaseDataVariableType
   DataType: Float

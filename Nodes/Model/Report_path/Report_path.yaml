@@ -6,3 +6,8 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "D:\\Batch_summary_report.pdf"
+- Name: Set_Parameter
+  Id: g=57813b938b2178649363c02bc6911ff8
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "D:\\Set_Parameter_report.pdf"
