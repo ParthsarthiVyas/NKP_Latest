@@ -2340,7 +2340,7 @@ Children:
                       DataType: LocalizedText
                       ReferenceType: HasParameter
                       ModellingRule: Optional
-                      Value: {"LocaleId":"en-US","Text":"D:\\Batch_Summery_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
+                      Value: {"LocaleId":"en-US","Text":"D:\\Batch_Summary_{0}_{1}_{2}_{3}_{4}_{5}.pdf"}
                     - Name: ns=3;Source0
                       Type: BaseDataVariableType
                       DataType: BaseDataType
@@ -2407,7 +2407,7 @@ Children:
               - Name: ns=3;ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/NKP_Latest/Reports/Batch_summery"
+                Value: "/Objects/NKP_Latest/Reports/Batch_summary"
                 Children:
                 - Name: Kind
                   Type: PropertyType
