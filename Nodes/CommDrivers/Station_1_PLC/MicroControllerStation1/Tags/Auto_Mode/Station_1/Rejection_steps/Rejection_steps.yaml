@@ -536,6 +536,10 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "O:0/0"
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+    Value: 0
 - Name: Rj_valve_2
   Type: MicroControllerTag
   DataType: Boolean
