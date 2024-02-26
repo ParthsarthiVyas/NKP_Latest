@@ -3573,7 +3573,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                Value: "/Objects/NKP_Latest/UI/Report_Screen/_34_Audit_Trial"
+                Value: "/Objects/NKP_Latest/UI/Report_Screen/Report_Nevigation"
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
