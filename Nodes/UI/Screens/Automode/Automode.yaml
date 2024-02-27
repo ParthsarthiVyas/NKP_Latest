@@ -22487,7 +22487,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/NKP_Latest/Model/Auto_Mode/Station_2/Rejection_steps/Rj_valve_1"
+              Value: "/Objects/NKP_Latest/Model/I_O_Screen/Station_2/OutputStatus/Y0"
           - Name: TrueValue
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -22648,7 +22648,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/NKP_Latest/Model/Auto_Mode/Station_2/Rejection_steps/Rj_valve_2"
+              Value: "/Objects/NKP_Latest/Model/I_O_Screen/Station_2/OutputStatus/Y1"
           - Name: TrueValue
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -22809,7 +22809,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/NKP_Latest/Model/Auto_Mode/Station_2/Rejection_steps/Rj_valve_3"
+              Value: "/Objects/NKP_Latest/Model/I_O_Screen/Station_2/OutputStatus/Y2"
           - Name: TrueValue
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -22970,7 +22970,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/NKP_Latest/Model/Auto_Mode/Station_2/Rejection_steps/Rj_valve_4"
+              Value: "/Objects/NKP_Latest/Model/I_O_Screen/Station_2/OutputStatus/Y3"
           - Name: TrueValue
             Type: BaseDataVariableType
             DataType: LocalizedText

@@ -44,6 +44,7 @@ Children:
   DataType: DateString
   Value: ""
 - Name: TotalCounts
+  Id: g=a5f87a9de3e5d69124097c490966b35d
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -58,6 +59,7 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: RejectCounts
+  Id: g=51bb2b836c6abddb250b2de8c499b45c
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -72,6 +74,7 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: GoodCounts
+  Id: g=df2389d29759196c456c94e2cd816f68
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -86,6 +89,7 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: %rejection
+  Id: g=864ee18ede7ed1dedba80b4cc1c047d1
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
