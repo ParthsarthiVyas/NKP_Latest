@@ -39,4 +39,8 @@ public class AuditTrailLogging : BaseNetLogic
         myTable.Insert(columns,rawValues);
 	}
 
+    internal void LogIntoAudit(string date_Time, string event_log)
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -16,6 +16,7 @@ using FTOptix.Report;
 using FTOptix.WebUI;
 using FTOptix.ODBCStore;
 using FTOptix.OPCUAServer;
+using FTOptix.DataLogger;
 
 #endregion
 

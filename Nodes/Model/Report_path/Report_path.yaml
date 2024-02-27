@@ -1,4 +1,5 @@
 Name: Report_path
+Id: g=655d2433a8a8e584f7f414f07234020e
 Type: FolderType
 Children:
 - Name: Batch_Summery_path
@@ -11,3 +12,18 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "D:\\Set_Parameter_report.pdf"
+- Name: Log_Alarm_event
+  Id: g=9223a60f9b91d977d02929e41a210223
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "D:\\Batch_log_report.pdf"
+- Name: Event_on_time
+  Id: g=d1736b796224e2522d163c54fd13cc12
+  Type: BaseDataVariableType
+  DataType: DateString
+  Value: "0"
+- Name: Event_off_time
+  Id: g=ee6919c3e1d1c03ce1a3d724b55c2232
+  Type: BaseDataVariableType
+  DataType: DateString
+  Value: "0"

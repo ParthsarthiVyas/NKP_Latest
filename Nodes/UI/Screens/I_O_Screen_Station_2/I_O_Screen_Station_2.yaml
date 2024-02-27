@@ -1187,7 +1187,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"  X0 - Disc Sensor-1 For Vial Reference"}
+        Value: {"LocaleId":"en-US","Text":"  X0 - Sensor For Vial Reference-1"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1323,7 +1323,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":" X5 - Disc Sensor-4 For Rejection Reference"}
+        Value: {"LocaleId":"en-US","Text":" X5 - Sensor For Rejection Reference-4"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1449,7 +1449,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"  X1 - Disc Sensor-2 For Vial Reference"}
+        Value: {"LocaleId":"en-US","Text":"  X1 - Sensor For Vial Reference-2"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1701,7 +1701,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":" X2 - Disc Sensor-1 For Rejection Reference"}
+        Value: {"LocaleId":"en-US","Text":" X2 - Sensor For Rejection Reference-1"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1953,7 +1953,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":" X3 - Disc Sensor-2 For Rejection Reference"}
+        Value: {"LocaleId":"en-US","Text":" X3 - Sensor For Rejection Reference-2"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -2205,7 +2205,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":" X4 - Disc Sensor-3 For Rejection Reference"}
+        Value: {"LocaleId":"en-US","Text":" X4 - Sensor For Rejection Reference-3"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
