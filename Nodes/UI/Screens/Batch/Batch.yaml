@@ -9409,7 +9409,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/NKP_Latest/Model/BatchData_Station_2/CompanyName"
+            Value: "/Objects/NKP_Latest/Model/BatchData_Station_1/CompanyName"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -9544,7 +9544,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/NKP_Latest/Model/BatchData_Station_2/EquipmentName"
+            Value: "/Objects/NKP_Latest/Model/BatchData_Station_1/EquipmentName"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -9679,7 +9679,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/NKP_Latest/Model/BatchData_Station_2/Equipmentid"
+            Value: "/Objects/NKP_Latest/Model/BatchData_Station_1/Equipmentid"
             Children:
             - Name: Mode
               Type: BaseVariableType
