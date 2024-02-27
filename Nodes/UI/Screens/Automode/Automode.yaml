@@ -87,7 +87,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-              Value: "/Objects/NKP_Latest/UI/Screens/Automode/Auto_mode_select_s2"
+              Value: "/Objects/NKP_Latest/UI/Screens/Automode/Auto_mode_select_s1"
             - Name: AliasNode
               Type: BaseDataVariableType
               DataType: NodeId
@@ -210,7 +210,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-              Value: "/Objects/NKP_Latest/UI/Screens/Automode/Auto_mode_select_s1"
+              Value: "/Objects/NKP_Latest/UI/Screens/Automode/Auto_mode_select_s2"
             - Name: AliasNode
               Type: BaseDataVariableType
               DataType: NodeId
@@ -262,7 +262,7 @@ Children:
       DataType: FontWeightEnum
       ModellingRule: Optional
       Value: 700
-- Name: Auto_mode_select_s1
+- Name: Auto_mode_select_s2
   Id: g=d30e2b2f74cb2b1fe0854e0b6eb9fc97
   Supertype: Panel
   ReferenceType: HasComponent
@@ -289,7 +289,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Auto Mode S-2 "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -305,7 +305,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Auto Mode-2 S-1 "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -321,7 +321,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Rejection System S-2 "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -499,7 +499,7 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
-- Name: Auto_mode_select_s2
+- Name: Auto_mode_select_s1
   Id: g=33f290ab8d694f7c9de65d84efd10d81
   Supertype: Panel
   ReferenceType: HasComponent
@@ -526,7 +526,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Auto Mode S-1 "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -542,7 +542,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Auto Mode-2 S-1 "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -558,7 +558,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Value: {"LocaleId":"en-US","Text":"Rejection System S-1 "}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId

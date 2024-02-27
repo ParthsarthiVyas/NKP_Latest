@@ -6,17 +6,17 @@ Children:
   Id: g=2c0e8fe4156de645d67b40a2fe80303e
   Type: BaseDataVariableType
   DataType: String
-  Value: "D:\\Batch_summary_report.pdf"
+  Value: "/storage/usb1/Batch_summary_report.pdf"
 - Name: Set_Parameter
   Id: g=57813b938b2178649363c02bc6911ff8
   Type: BaseDataVariableType
   DataType: String
-  Value: "D:\\Set_Parameter_report.pdf"
+  Value: "/storage/usb1/Set_Parameter_report.pdf"
 - Name: Log_Alarm_event
   Id: g=9223a60f9b91d977d02929e41a210223
   Type: BaseDataVariableType
   DataType: String
-  Value: "D:\\Batch_log_report.pdf"
+  Value: "/storage/usb1/Batch_log_report.pdf"
 - Name: Event_on_time
   Id: g=d1736b796224e2522d163c54fd13cc12
   Type: BaseDataVariableType
