@@ -1083,7 +1083,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Minimum Vial at Infeed Conveyor On Delay "}
+      Value: {"LocaleId":"en-US","Text":"Minimum Product at Infeed Conveyor On Delay "}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1103,7 +1103,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 285.0
+      Value: 362.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -1131,7 +1131,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Minimum Vial at Infeed Conveyor Off Delay "}
+      Value: {"LocaleId":"en-US","Text":"Minimum Product at Infeed Conveyor Off Delay "}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1151,7 +1151,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 285.0
+      Value: 342.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -1558,7 +1558,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 740.0
+      Value: 730.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1568,12 +1568,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 70.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -2039,7 +2039,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 740.0
+      Value: 730.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2049,12 +2049,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 70.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -2506,7 +2506,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 740.0
+      Value: 730.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2516,12 +2516,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 70.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -5841,7 +5841,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"No Vial At Infeed"}
+      Value: {"LocaleId":"en-US","Text":"No Product At Infeed"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -6797,7 +6797,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 740.0
+      Value: 730.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -6807,12 +6807,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 70.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -8866,7 +8866,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Minimum Vial at Infeed Conveyor On Delay "}
+      Value: {"LocaleId":"en-US","Text":"Minimum Product at Infeed Conveyor On Delay "}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -8886,7 +8886,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 285.0
+      Value: 342.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -8914,7 +8914,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Minimum Vial at Infeed Conveyor Off Delay "}
+      Value: {"LocaleId":"en-US","Text":"Minimum Product at Infeed Conveyor Off Delay "}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -8934,7 +8934,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 285.0
+      Value: 342.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -9341,7 +9341,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 740.0
+      Value: 730.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -9351,12 +9351,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 70.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -9822,7 +9822,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 740.0
+      Value: 730.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -9832,12 +9832,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 70.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -10200,7 +10200,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 740.0
+      Value: 739.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -10210,7 +10210,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -13624,7 +13624,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"No Vial At Infeed"}
+      Value: {"LocaleId":"en-US","Text":"No Product At Infeed"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -14571,7 +14571,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 740.0
+      Value: 730.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -14581,12 +14581,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 70.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:

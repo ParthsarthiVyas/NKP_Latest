@@ -1187,7 +1187,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"  X0 - Sensor For Vial Reference-1"}
+        Value: {"LocaleId":"en-US","Text":"  X0 - Sensor For Product Reference-1"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1449,7 +1449,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"  X1 - Sensor For Vial Reference-2"}
+        Value: {"LocaleId":"en-US","Text":"  X1 - Sensor For Product Reference-2"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1827,7 +1827,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":" X7 - Sensor For Rejection Vial Counting"}
+        Value: {"LocaleId":"en-US","Text":" X7 - Sensor For Rejection Product Counting"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -2079,7 +2079,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":" X8 - Sensor For Vial Counting"}
+        Value: {"LocaleId":"en-US","Text":" X8 - Sensor For Product Counting"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size

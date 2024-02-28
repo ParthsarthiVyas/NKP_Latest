@@ -461,7 +461,7 @@ Children:
     Id: g=e697e2b436494db0810c13688661abdc
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Maximum Vial Rejected At Station-2"}
+    Value: {"LocaleId":"en-US","Text":"Maximum Product Rejected At Station-2"}
 - Name: Vacuum_Pump_Trip
   Id: g=399b3fd068ca2ddffefafcb92b59961c
   Type: OffNormalAlarmController
@@ -645,4 +645,4 @@ Children:
     Id: g=3f809e5be201c69af21485f9fc802a38
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Rejected Vial Not Confirmed At Rejection Station-2"}
+    Value: {"LocaleId":"en-US","Text":"Rejected Product Not Confirmed At Rejection Station-2"}
