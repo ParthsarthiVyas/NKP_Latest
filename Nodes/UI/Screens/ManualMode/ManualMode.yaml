@@ -1916,7 +1916,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1931,7 +1931,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -1979,7 +1979,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1994,7 +1994,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -2042,7 +2042,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2057,7 +2057,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -2105,7 +2105,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2120,7 +2120,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: CheckedText
       Type: BaseDataVariableType
       DataType: LocalizedText
@@ -2168,7 +2168,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2183,7 +2183,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: CheckedText
       Type: BaseDataVariableType
       DataType: LocalizedText
@@ -2231,7 +2231,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2241,12 +2241,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 333.0
+      Value: 330.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: CheckedText
       Type: BaseDataVariableType
       DataType: LocalizedText
@@ -2932,7 +2932,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2947,7 +2947,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -3005,7 +3005,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -3020,7 +3020,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -3078,7 +3078,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -3093,7 +3093,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -3151,7 +3151,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -3166,7 +3166,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -4496,7 +4496,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -4511,7 +4511,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -4559,7 +4559,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -4574,7 +4574,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -4622,7 +4622,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -4637,7 +4637,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -4685,7 +4685,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -4700,7 +4700,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -4748,7 +4748,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -4763,7 +4763,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -4811,7 +4811,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -4826,7 +4826,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -5619,7 +5619,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -5634,7 +5634,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -5692,7 +5692,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -5707,7 +5707,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -5765,7 +5765,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -5780,7 +5780,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -5838,7 +5838,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 100.0
+      Value: 120.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -5853,7 +5853,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 32.0
+      Value: 36.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment

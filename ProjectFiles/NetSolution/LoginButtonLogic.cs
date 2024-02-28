@@ -133,8 +133,8 @@ public class LoginButtonLogic : BaseNetLogic
 
 
 
-        if (string.IsNullOrEmpty(username))
-        {
+        //if (string.IsNullOrEmpty(username))
+        /*
             var ownerButton1 = (Button)Owner;
             ownerButton1.OpenDialog(InvalidUserDailogbox);
             Log.Error("EditUserDetailPanelLogic", "Cannot Login user with empty username");
@@ -142,7 +142,7 @@ public class LoginButtonLogic : BaseNetLogic
            
         
         }
-
+        */
         //---------------User Validation End---------------------------------------
 
         Button loginButton = (Button)Owner;
@@ -210,12 +210,12 @@ public class LoginButtonLogic : BaseNetLogic
 
                     if (username == "Pima")
                     {
-                        var ownerButton1 = (Button)Owner;
-                        ownerButton1.OpenDialog(InvalidMasterPasswordDailogbox);
+                       var ownerButton1 = (Button)Owner;
+                       ownerButton1.OpenDialog(InvalidMasterPasswordDailogbox);
 
                         return;
                     }
-
+                    
 
 
                     UserDetails.Invalid_Login_Attempts = UserDetails.Invalid_Login_Attempts + 1;
