@@ -35,18 +35,58 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Model/Retain_Variable/MaxPasswordAge"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: EnforcePasswordHistory
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Model/Retain_Variable/EnforcePasswordHistory"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: MinimumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Model/Retain_Variable/MinPasswordAge"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: MinimumPasswordLength
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../Model/Retain_Variable/MinPasswordLength"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
 - Name: AlarmConfiguration
   Type: PropertyGroup
 - File: UI/UI.yaml
