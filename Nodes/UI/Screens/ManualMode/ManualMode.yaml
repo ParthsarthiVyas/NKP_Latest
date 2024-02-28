@@ -1643,7 +1643,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Main Motor (Vial/Min)"}
+      Value: {"LocaleId":"en-US","Text":"Main Motor (Product/Min)"}
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
@@ -4223,7 +4223,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Main Motor (Vial/Min)"}
+      Value: {"LocaleId":"en-US","Text":"Main Motor (Product/Min)"}
     - Name: FontSize
       Type: BaseDataVariableType
       DataType: Size
