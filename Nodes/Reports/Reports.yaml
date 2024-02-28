@@ -402,7 +402,7 @@ Children:
       - Name: Width
         Type: BaseDataVariableType
         DataType: Size
-        Value: 121.70833587646484
+        Value: 118.00416564941406
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -485,7 +485,7 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"VISUAL VIAL/AMPOULE INSPECTION MACHINE MODEL-NKAINS-120/200"}
+        Value: {"LocaleId":"en-US","Text":"VISUAL VIAL/AMPOULE INSPECTION MACHINE MODEL-NKAINS-200"}
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -11259,7 +11259,7 @@ Children:
       - Name: Width
         Type: BaseDataVariableType
         DataType: Size
-        Value: 121.70833587646484
+        Value: 118.00416564941406
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -11342,7 +11342,7 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"VISUAL VIAL/AMPOULE INSPECTION MACHINE MODEL-NKAINS-120/200"}
+        Value: {"LocaleId":"en-US","Text":"VISUAL VIAL/AMPOULE INSPECTION MACHINE MODEL-NKAINS-200"}
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -22761,7 +22761,7 @@ Children:
       - Name: Width
         Type: BaseDataVariableType
         DataType: Size
-        Value: 121.70833587646484
+        Value: 118.00416564941406
         Children:
         - Name: EngineeringUnits
           Type: EUInformationType
@@ -22844,7 +22844,7 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"VISUAL VIAL/AMPOULE INSPECTION MACHINE MODEL-NKAINS-120/200"}
+        Value: {"LocaleId":"en-US","Text":"VISUAL VIAL/AMPOULE INSPECTION MACHINE MODEL-NKAINS-200"}
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size

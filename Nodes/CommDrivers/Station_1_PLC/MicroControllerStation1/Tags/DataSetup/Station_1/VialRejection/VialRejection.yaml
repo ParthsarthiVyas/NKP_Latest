@@ -91,3 +91,12 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "B3:40/9"
+- Name: Counting Window
+  Type: MicroControllerTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B3:9/15"
