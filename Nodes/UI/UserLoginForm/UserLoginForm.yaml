@@ -1166,7 +1166,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../../ShowCurrentUser"
+          Value: "{Session}/User@Pointer@BrowseName"
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -1204,7 +1204,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 11.0
+        Value: 10.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color

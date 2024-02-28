@@ -17,12 +17,12 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
-- Name: BatchStartTime
+- Name: BatchStartTime_1
   Id: g=ff2c762e8a1edcd4dba99a5b9a495fb7
   Type: BaseDataVariableType
   DataType: DateString
   Value: ""
-- Name: BatchStopTime
+- Name: BatchStopTime_1
   Id: g=392aee670c9a04679bad1bd83bdf3c04
   Type: BaseDataVariableType
   DataType: DateString

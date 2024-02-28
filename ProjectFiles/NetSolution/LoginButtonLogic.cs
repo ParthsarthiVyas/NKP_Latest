@@ -206,6 +206,8 @@ public class LoginButtonLogic : BaseNetLogic
                     // User Login Failed Event Logging into Audit Database
                     AuditTrailLogging UserLoginFailed = new AuditTrailLogging();
                     UserLoginFailed.LogIntoAudit("Invalid login attempt", username, Session.User.BrowseName, "UserLoginEvent");
+                    var ownerButton3 = (Button)Owner;
+                    ownerButton3.OpenDialog(LoginAttemptFailedDialogbox);
                     //-----------Customized Logic End-------------------
 
                     if (username == "Pima")
@@ -233,10 +235,10 @@ public class LoginButtonLogic : BaseNetLogic
                     }
                     else
                     {
-                        var ownerButton3 = (Button)Owner;
-                        LoginAttemptFailedDialogbox.GetVariable("InvalidLoginUser").Value = username;
-                        LoginAttemptFailedDialogbox.GetVariable("RemainingAttempt").Value = LoginAttempLimit - UserDetails.Invalid_Login_Attempts;
-                        ownerButton3.OpenDialog(LoginAttemptFailedDialogbox);
+                        //var ownerButton3 = (Button)Owner;
+                        //LoginAttemptFailedDialogbox.GetVariable("InvalidLoginUser").Value = username;
+                        //LoginAttemptFailedDialogbox.GetVariable("RemainingAttempt").Value = LoginAttempLimit - UserDetails.Invalid_Login_Attempts;
+                        //ownerButton3.OpenDialog(LoginAttemptFailedDialogbox);
                     }
                 }
                 else
